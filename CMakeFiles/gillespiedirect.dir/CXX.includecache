@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/taylorjh/DenseResearch/other_simulations/Gillespie_Direct_Simulation.cpp
+cmath
+-
+Gillespie_Direct_Simulation.hpp
+/home/taylorjh/DenseResearch/other_simulations/Gillespie_Direct_Simulation.hpp
+sim/cell_param.hpp
+/home/taylorjh/DenseResearch/other_simulations/sim/cell_param.hpp
+model_impl.hpp
+/home/taylorjh/DenseResearch/other_simulations/model_impl.hpp
+core/model.hpp
+/home/taylorjh/DenseResearch/other_simulations/core/model.hpp
+limits
+-
+iostream
+-
+cmath
+-
+set
+-
+reactions_list.hpp
+/home/taylorjh/DenseResearch/other_simulations/reactions_list.hpp
+reactions_list.hpp
+/home/taylorjh/DenseResearch/other_simulations/reactions_list.hpp
+reactions_list.hpp
+/home/taylorjh/DenseResearch/other_simulations/reactions_list.hpp
+
