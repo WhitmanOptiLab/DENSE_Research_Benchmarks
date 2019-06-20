@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/briggs_simulation_fastgillespie.dir/Fast_Gillespie_Simulation_Main.cpp.o  -o briggs_simulation_fastgillespie libbriggs_simulation_fastgillespie_lib.a 

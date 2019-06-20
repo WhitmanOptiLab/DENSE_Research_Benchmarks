@@ -24,7 +24,10 @@ add_subdirectory(${DENSE_PATH} DENSE EXCLUDE_FROM_ALL)
 
 
 #declare a main function to build using a particular model
-SIMULATION(turing_simulation ${CMAKE_CURRENT_SOURCE_DIR}/Turing-Pattern custom_main.cpp)
+SIMULATION(turing_simulation_nextreaction ${CMAKE_CURRENT_SOURCE_DIR}/Turing-Pattern custom_main.cpp)
+SIMULATION(briggs_simulation_nextreaction ${CMAKE_CURRENT_SOURCE_DIR}/Briggs-Raucher custom_main.cpp)
+SIMULATION(delay_simulation_nextreaction ${CMAKE_CURRENT_SOURCE_DIR}/delay_reaction custom_main.cpp)
+
 
 
 #build just the simulation library, if you want to build something even more 

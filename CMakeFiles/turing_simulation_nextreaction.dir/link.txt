@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/turing_simulation_nextreaction.dir/custom_main.cpp.o  -o turing_simulation_nextreaction libturing_simulation_nextreaction_lib.a 

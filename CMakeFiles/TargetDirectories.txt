@@ -1,7 +1,11 @@
 /home/taylorjh/DenseResearch/CMakeFiles/rebuild_cache.dir
-/home/taylorjh/DenseResearch/CMakeFiles/turing_simulation_lib.dir
 /home/taylorjh/DenseResearch/CMakeFiles/edit_cache.dir
-/home/taylorjh/DenseResearch/CMakeFiles/turing_simulation.dir
+/home/taylorjh/DenseResearch/CMakeFiles/turing_simulation_nextreaction.dir
+/home/taylorjh/DenseResearch/CMakeFiles/turing_simulation_nextreaction_lib.dir
+/home/taylorjh/DenseResearch/CMakeFiles/briggs_simulation_nextreaction_lib.dir
+/home/taylorjh/DenseResearch/CMakeFiles/briggs_simulation_nextreaction.dir
+/home/taylorjh/DenseResearch/CMakeFiles/delay_simulation_nextreaction_lib.dir
+/home/taylorjh/DenseResearch/CMakeFiles/delay_simulation_nextreaction.dir
 /home/taylorjh/DenseResearch/DENSE/CMakeFiles/rebuild_cache.dir
 /home/taylorjh/DenseResearch/DENSE/CMakeFiles/edit_cache.dir
 /home/taylorjh/DenseResearch/DENSE/source/CMakeFiles/rebuild_cache.dir
@@ -11,6 +15,7 @@
 /home/taylorjh/DenseResearch/DENSE/test/her_model_2014/CMakeFiles/edit_cache.dir
 /home/taylorjh/DenseResearch/DENSE/test/her_model_2014/CMakeFiles/rebuild_cache.dir
 /home/taylorjh/DenseResearch/DENSE/test/her_model_2014/CMakeFiles/her2014_param_search_lib.dir
+/home/taylorjh/DenseResearch/DENSE/test/her_model_2014/CMakeFiles/her2014_param_search.dir
 /home/taylorjh/DenseResearch/DENSE/test/her_model_2014/CMakeFiles/her2014_simulation_lib.dir
 /home/taylorjh/DenseResearch/DENSE/test/her_model_2014/CMakeFiles/her2014_simulation.dir
 /home/taylorjh/DenseResearch/DENSE/test/her_model_2014/source/CMakeFiles/rebuild_cache.dir
