@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/taylorjh/DenseResearch/Turing-Pattern -I/home/taylorjh/DenseResearch/expiriments/source 
+CXX_INCLUDES = -I/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/Turing-Pattern -I/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source 
 

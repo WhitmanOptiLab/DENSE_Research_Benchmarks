@@ -15,7 +15,7 @@
 #include "run_simulation.hpp"
 #include "arg_parse.hpp"
 #include "parse_analysis_entries.hpp"
-#include "time_simulation.hpp"
+//#include "time_simulation.hpp"
 
 using style::Color;
 
@@ -35,13 +35,13 @@ using style::Color;
 using dense::csvw_sim;
 using dense::stochastic::Next_Reaction_Simulation;
 using dense::Sim_Builder;
-using dense::Stochastic_Simulation;
+//using dense::Stochastic::Simulation;
 using dense::Fast_Gillespie_Direct_Simulation;
 using dense::parse_static_args;
 using dense::parse_analysis_entries;
 using dense::Static_Args;
 using dense::run_simulation;
-using dense::time_simulation;
+//using dense::time_simulation;
 
 
 int main(int argc, char* argv[]){
@@ -115,7 +115,7 @@ int main(int argc, char* argv[]){
       
     }
   }
-  }
+}
 
 
 /*

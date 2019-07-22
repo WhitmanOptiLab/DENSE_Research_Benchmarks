@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/taylorjh/DenseResearch/expiriments/source/io/ezxml/ezxml.c
+/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.c
 stdlib.h
 -
 stdio.h
@@ -26,9 +26,9 @@ sys/mman.h
 sys/stat.h
 -
 ezxml.h
-/home/taylorjh/DenseResearch/expiriments/source/io/ezxml/ezxml.h
+/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.h
 
-/home/taylorjh/DenseResearch/expiriments/source/io/ezxml/ezxml.h
+/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.h
 stdlib.h
 -
 stdio.h
