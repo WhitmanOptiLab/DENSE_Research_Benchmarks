@@ -111,82 +111,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named turing_simulation_nextreaction
+# Target rules for targets named scale_experiment
 
 # Build rule for target.
-turing_simulation_nextreaction: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turing_simulation_nextreaction
-.PHONY : turing_simulation_nextreaction
+scale_experiment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scale_experiment
+.PHONY : scale_experiment
 
 # fast build rule for target.
-turing_simulation_nextreaction/fast:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction.dir/build.make CMakeFiles/turing_simulation_nextreaction.dir/build
-.PHONY : turing_simulation_nextreaction/fast
+scale_experiment/fast:
+	$(MAKE) -f CMakeFiles/scale_experiment.dir/build.make CMakeFiles/scale_experiment.dir/build
+.PHONY : scale_experiment/fast
 
 #=============================================================================
-# Target rules for targets named turing_simulation_nextreaction_lib
+# Target rules for targets named scale_experiment_lib
 
 # Build rule for target.
-turing_simulation_nextreaction_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turing_simulation_nextreaction_lib
-.PHONY : turing_simulation_nextreaction_lib
+scale_experiment_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scale_experiment_lib
+.PHONY : scale_experiment_lib
 
 # fast build rule for target.
-turing_simulation_nextreaction_lib/fast:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/build
-.PHONY : turing_simulation_nextreaction_lib/fast
+scale_experiment_lib/fast:
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/build
+.PHONY : scale_experiment_lib/fast
 
 #=============================================================================
-# Target rules for targets named briggs_simulation_nextreaction_lib
+# Target rules for targets named density_experiment_lib
 
 # Build rule for target.
-briggs_simulation_nextreaction_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 briggs_simulation_nextreaction_lib
-.PHONY : briggs_simulation_nextreaction_lib
+density_experiment_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 density_experiment_lib
+.PHONY : density_experiment_lib
 
 # fast build rule for target.
-briggs_simulation_nextreaction_lib/fast:
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/build
-.PHONY : briggs_simulation_nextreaction_lib/fast
+density_experiment_lib/fast:
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/build
+.PHONY : density_experiment_lib/fast
 
 #=============================================================================
-# Target rules for targets named briggs_simulation_nextreaction
+# Target rules for targets named density_experiment
 
 # Build rule for target.
-briggs_simulation_nextreaction: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 briggs_simulation_nextreaction
-.PHONY : briggs_simulation_nextreaction
+density_experiment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 density_experiment
+.PHONY : density_experiment
 
 # fast build rule for target.
-briggs_simulation_nextreaction/fast:
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction.dir/build.make CMakeFiles/briggs_simulation_nextreaction.dir/build
-.PHONY : briggs_simulation_nextreaction/fast
-
-#=============================================================================
-# Target rules for targets named delay_simulation_nextreaction_lib
-
-# Build rule for target.
-delay_simulation_nextreaction_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 delay_simulation_nextreaction_lib
-.PHONY : delay_simulation_nextreaction_lib
-
-# fast build rule for target.
-delay_simulation_nextreaction_lib/fast:
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/build
-.PHONY : delay_simulation_nextreaction_lib/fast
-
-#=============================================================================
-# Target rules for targets named delay_simulation_nextreaction
-
-# Build rule for target.
-delay_simulation_nextreaction: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 delay_simulation_nextreaction
-.PHONY : delay_simulation_nextreaction
-
-# fast build rule for target.
-delay_simulation_nextreaction/fast:
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction.dir/build.make CMakeFiles/delay_simulation_nextreaction.dir/build
-.PHONY : delay_simulation_nextreaction/fast
+density_experiment/fast:
+	$(MAKE) -f CMakeFiles/density_experiment.dir/build.make CMakeFiles/density_experiment.dir/build
+.PHONY : density_experiment/fast
 
 #=============================================================================
 # Target rules for targets named her2014_simulation_lib
@@ -298,9 +272,8 @@ DENSE/source/core/build_once.o: DENSE/source/core/build_once.cpp.o
 
 # target to build an object file
 DENSE/source/core/build_once.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/core/build_once.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/core/build_once.cpp.o
 .PHONY : DENSE/source/core/build_once.cpp.o
 
 DENSE/source/core/build_once.i: DENSE/source/core/build_once.cpp.i
@@ -309,9 +282,8 @@ DENSE/source/core/build_once.i: DENSE/source/core/build_once.cpp.i
 
 # target to preprocess a source file
 DENSE/source/core/build_once.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/core/build_once.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/core/build_once.cpp.i
 .PHONY : DENSE/source/core/build_once.cpp.i
 
 DENSE/source/core/build_once.s: DENSE/source/core/build_once.cpp.s
@@ -320,9 +292,8 @@ DENSE/source/core/build_once.s: DENSE/source/core/build_once.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/core/build_once.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/core/build_once.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/core/build_once.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/core/build_once.cpp.s
 .PHONY : DENSE/source/core/build_once.cpp.s
 
 DENSE/source/io/arg_parse.o: DENSE/source/io/arg_parse.cpp.o
@@ -331,9 +302,8 @@ DENSE/source/io/arg_parse.o: DENSE/source/io/arg_parse.cpp.o
 
 # target to build an object file
 DENSE/source/io/arg_parse.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o
 .PHONY : DENSE/source/io/arg_parse.cpp.o
 
 DENSE/source/io/arg_parse.i: DENSE/source/io/arg_parse.cpp.i
@@ -342,9 +312,8 @@ DENSE/source/io/arg_parse.i: DENSE/source/io/arg_parse.cpp.i
 
 # target to preprocess a source file
 DENSE/source/io/arg_parse.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.i
 .PHONY : DENSE/source/io/arg_parse.cpp.i
 
 DENSE/source/io/arg_parse.s: DENSE/source/io/arg_parse.cpp.s
@@ -353,9 +322,8 @@ DENSE/source/io/arg_parse.s: DENSE/source/io/arg_parse.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/io/arg_parse.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/arg_parse.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.s
 .PHONY : DENSE/source/io/arg_parse.cpp.s
 
 DENSE/source/io/csvr.o: DENSE/source/io/csvr.cpp.o
@@ -364,9 +332,8 @@ DENSE/source/io/csvr.o: DENSE/source/io/csvr.cpp.o
 
 # target to build an object file
 DENSE/source/io/csvr.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvr.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.o
 .PHONY : DENSE/source/io/csvr.cpp.o
 
 DENSE/source/io/csvr.i: DENSE/source/io/csvr.cpp.i
@@ -375,9 +342,8 @@ DENSE/source/io/csvr.i: DENSE/source/io/csvr.cpp.i
 
 # target to preprocess a source file
 DENSE/source/io/csvr.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvr.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.i
 .PHONY : DENSE/source/io/csvr.cpp.i
 
 DENSE/source/io/csvr.s: DENSE/source/io/csvr.cpp.s
@@ -386,9 +352,8 @@ DENSE/source/io/csvr.s: DENSE/source/io/csvr.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/io/csvr.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvr.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvr.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.s
 .PHONY : DENSE/source/io/csvr.cpp.s
 
 DENSE/source/io/csvr_sim.o: DENSE/source/io/csvr_sim.cpp.o
@@ -397,9 +362,8 @@ DENSE/source/io/csvr_sim.o: DENSE/source/io/csvr_sim.cpp.o
 
 # target to build an object file
 DENSE/source/io/csvr_sim.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o
 .PHONY : DENSE/source/io/csvr_sim.cpp.o
 
 DENSE/source/io/csvr_sim.i: DENSE/source/io/csvr_sim.cpp.i
@@ -408,9 +372,8 @@ DENSE/source/io/csvr_sim.i: DENSE/source/io/csvr_sim.cpp.i
 
 # target to preprocess a source file
 DENSE/source/io/csvr_sim.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.i
 .PHONY : DENSE/source/io/csvr_sim.cpp.i
 
 DENSE/source/io/csvr_sim.s: DENSE/source/io/csvr_sim.cpp.s
@@ -419,9 +382,8 @@ DENSE/source/io/csvr_sim.s: DENSE/source/io/csvr_sim.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/io/csvr_sim.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvr_sim.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.s
 .PHONY : DENSE/source/io/csvr_sim.cpp.s
 
 DENSE/source/io/csvw.o: DENSE/source/io/csvw.cpp.o
@@ -430,9 +392,8 @@ DENSE/source/io/csvw.o: DENSE/source/io/csvw.cpp.o
 
 # target to build an object file
 DENSE/source/io/csvw.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvw.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.o
 .PHONY : DENSE/source/io/csvw.cpp.o
 
 DENSE/source/io/csvw.i: DENSE/source/io/csvw.cpp.i
@@ -441,9 +402,8 @@ DENSE/source/io/csvw.i: DENSE/source/io/csvw.cpp.i
 
 # target to preprocess a source file
 DENSE/source/io/csvw.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvw.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.i
 .PHONY : DENSE/source/io/csvw.cpp.i
 
 DENSE/source/io/csvw.s: DENSE/source/io/csvw.cpp.s
@@ -452,9 +412,8 @@ DENSE/source/io/csvw.s: DENSE/source/io/csvw.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/io/csvw.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/csvw.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/csvw.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.s
 .PHONY : DENSE/source/io/csvw.cpp.s
 
 DENSE/source/io/ezxml/ezxml.o: DENSE/source/io/ezxml/ezxml.c.o
@@ -463,9 +422,8 @@ DENSE/source/io/ezxml/ezxml.o: DENSE/source/io/ezxml/ezxml.c.o
 
 # target to build an object file
 DENSE/source/io/ezxml/ezxml.c.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o
 .PHONY : DENSE/source/io/ezxml/ezxml.c.o
 
 DENSE/source/io/ezxml/ezxml.i: DENSE/source/io/ezxml/ezxml.c.i
@@ -474,9 +432,8 @@ DENSE/source/io/ezxml/ezxml.i: DENSE/source/io/ezxml/ezxml.c.i
 
 # target to preprocess a source file
 DENSE/source/io/ezxml/ezxml.c.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.i
 .PHONY : DENSE/source/io/ezxml/ezxml.c.i
 
 DENSE/source/io/ezxml/ezxml.s: DENSE/source/io/ezxml/ezxml.c.s
@@ -485,43 +442,9 @@ DENSE/source/io/ezxml/ezxml.s: DENSE/source/io/ezxml/ezxml.c.s
 
 # target to generate assembly for a file
 DENSE/source/io/ezxml/ezxml.c.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/io/ezxml/ezxml.c.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.s
 .PHONY : DENSE/source/io/ezxml/ezxml.c.s
-
-DENSE/source/rejection_based_main.o: DENSE/source/rejection_based_main.cpp.o
-
-.PHONY : DENSE/source/rejection_based_main.o
-
-# target to build an object file
-DENSE/source/rejection_based_main.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.o
-.PHONY : DENSE/source/rejection_based_main.cpp.o
-
-DENSE/source/rejection_based_main.i: DENSE/source/rejection_based_main.cpp.i
-
-.PHONY : DENSE/source/rejection_based_main.i
-
-# target to preprocess a source file
-DENSE/source/rejection_based_main.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.i
-.PHONY : DENSE/source/rejection_based_main.cpp.i
-
-DENSE/source/rejection_based_main.s: DENSE/source/rejection_based_main.cpp.s
-
-.PHONY : DENSE/source/rejection_based_main.s
-
-# target to generate assembly for a file
-DENSE/source/rejection_based_main.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/rejection_based_main.cpp.s
-.PHONY : DENSE/source/rejection_based_main.cpp.s
 
 DENSE/source/search/libsres/ESES.o: DENSE/source/search/libsres/ESES.cpp.o
 
@@ -529,9 +452,8 @@ DENSE/source/search/libsres/ESES.o: DENSE/source/search/libsres/ESES.cpp.o
 
 # target to build an object file
 DENSE/source/search/libsres/ESES.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o
 .PHONY : DENSE/source/search/libsres/ESES.cpp.o
 
 DENSE/source/search/libsres/ESES.i: DENSE/source/search/libsres/ESES.cpp.i
@@ -540,9 +462,8 @@ DENSE/source/search/libsres/ESES.i: DENSE/source/search/libsres/ESES.cpp.i
 
 # target to preprocess a source file
 DENSE/source/search/libsres/ESES.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.i
 .PHONY : DENSE/source/search/libsres/ESES.cpp.i
 
 DENSE/source/search/libsres/ESES.s: DENSE/source/search/libsres/ESES.cpp.s
@@ -551,9 +472,8 @@ DENSE/source/search/libsres/ESES.s: DENSE/source/search/libsres/ESES.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/search/libsres/ESES.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESES.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.s
 .PHONY : DENSE/source/search/libsres/ESES.cpp.s
 
 DENSE/source/search/libsres/ESSRSort.o: DENSE/source/search/libsres/ESSRSort.cpp.o
@@ -562,9 +482,8 @@ DENSE/source/search/libsres/ESSRSort.o: DENSE/source/search/libsres/ESSRSort.cpp
 
 # target to build an object file
 DENSE/source/search/libsres/ESSRSort.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
 .PHONY : DENSE/source/search/libsres/ESSRSort.cpp.o
 
 DENSE/source/search/libsres/ESSRSort.i: DENSE/source/search/libsres/ESSRSort.cpp.i
@@ -573,9 +492,8 @@ DENSE/source/search/libsres/ESSRSort.i: DENSE/source/search/libsres/ESSRSort.cpp
 
 # target to preprocess a source file
 DENSE/source/search/libsres/ESSRSort.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i
 .PHONY : DENSE/source/search/libsres/ESSRSort.cpp.i
 
 DENSE/source/search/libsres/ESSRSort.s: DENSE/source/search/libsres/ESSRSort.cpp.s
@@ -584,9 +502,8 @@ DENSE/source/search/libsres/ESSRSort.s: DENSE/source/search/libsres/ESSRSort.cpp
 
 # target to generate assembly for a file
 DENSE/source/search/libsres/ESSRSort.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s
 .PHONY : DENSE/source/search/libsres/ESSRSort.cpp.s
 
 DENSE/source/search/libsres/sharefunc.o: DENSE/source/search/libsres/sharefunc.cpp.o
@@ -595,9 +512,8 @@ DENSE/source/search/libsres/sharefunc.o: DENSE/source/search/libsres/sharefunc.c
 
 # target to build an object file
 DENSE/source/search/libsres/sharefunc.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o
 .PHONY : DENSE/source/search/libsres/sharefunc.cpp.o
 
 DENSE/source/search/libsres/sharefunc.i: DENSE/source/search/libsres/sharefunc.cpp.i
@@ -606,9 +522,8 @@ DENSE/source/search/libsres/sharefunc.i: DENSE/source/search/libsres/sharefunc.c
 
 # target to preprocess a source file
 DENSE/source/search/libsres/sharefunc.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i
 .PHONY : DENSE/source/search/libsres/sharefunc.cpp.i
 
 DENSE/source/search/libsres/sharefunc.s: DENSE/source/search/libsres/sharefunc.cpp.s
@@ -617,9 +532,8 @@ DENSE/source/search/libsres/sharefunc.s: DENSE/source/search/libsres/sharefunc.c
 
 # target to generate assembly for a file
 DENSE/source/search/libsres/sharefunc.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s
 .PHONY : DENSE/source/search/libsres/sharefunc.cpp.s
 
 DENSE/source/search/sres.o: DENSE/source/search/sres.cpp.o
@@ -628,9 +542,8 @@ DENSE/source/search/sres.o: DENSE/source/search/sres.cpp.o
 
 # target to build an object file
 DENSE/source/search/sres.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/sres.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.o
 .PHONY : DENSE/source/search/sres.cpp.o
 
 DENSE/source/search/sres.i: DENSE/source/search/sres.cpp.i
@@ -639,9 +552,8 @@ DENSE/source/search/sres.i: DENSE/source/search/sres.cpp.i
 
 # target to preprocess a source file
 DENSE/source/search/sres.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/sres.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.i
 .PHONY : DENSE/source/search/sres.cpp.i
 
 DENSE/source/search/sres.s: DENSE/source/search/sres.cpp.s
@@ -650,9 +562,8 @@ DENSE/source/search/sres.s: DENSE/source/search/sres.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/search/sres.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/search/sres.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/sres.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.s
 .PHONY : DENSE/source/search/sres.cpp.s
 
 DENSE/source/sim/base.o: DENSE/source/sim/base.cpp.o
@@ -661,9 +572,8 @@ DENSE/source/sim/base.o: DENSE/source/sim/base.cpp.o
 
 # target to build an object file
 DENSE/source/sim/base.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/base.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/base.cpp.o
 .PHONY : DENSE/source/sim/base.cpp.o
 
 DENSE/source/sim/base.i: DENSE/source/sim/base.cpp.i
@@ -672,9 +582,8 @@ DENSE/source/sim/base.i: DENSE/source/sim/base.cpp.i
 
 # target to preprocess a source file
 DENSE/source/sim/base.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/base.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/base.cpp.i
 .PHONY : DENSE/source/sim/base.cpp.i
 
 DENSE/source/sim/base.s: DENSE/source/sim/base.cpp.s
@@ -683,9 +592,8 @@ DENSE/source/sim/base.s: DENSE/source/sim/base.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/sim/base.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/base.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/base.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/base.cpp.s
 .PHONY : DENSE/source/sim/base.cpp.s
 
 DENSE/source/sim/determ/baby_cl.o: DENSE/source/sim/determ/baby_cl.cpp.o
@@ -694,9 +602,8 @@ DENSE/source/sim/determ/baby_cl.o: DENSE/source/sim/determ/baby_cl.cpp.o
 
 # target to build an object file
 DENSE/source/sim/determ/baby_cl.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o
 .PHONY : DENSE/source/sim/determ/baby_cl.cpp.o
 
 DENSE/source/sim/determ/baby_cl.i: DENSE/source/sim/determ/baby_cl.cpp.i
@@ -705,9 +612,8 @@ DENSE/source/sim/determ/baby_cl.i: DENSE/source/sim/determ/baby_cl.cpp.i
 
 # target to preprocess a source file
 DENSE/source/sim/determ/baby_cl.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i
 .PHONY : DENSE/source/sim/determ/baby_cl.cpp.i
 
 DENSE/source/sim/determ/baby_cl.s: DENSE/source/sim/determ/baby_cl.cpp.s
@@ -716,9 +622,8 @@ DENSE/source/sim/determ/baby_cl.s: DENSE/source/sim/determ/baby_cl.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/sim/determ/baby_cl.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s
 .PHONY : DENSE/source/sim/determ/baby_cl.cpp.s
 
 DENSE/source/sim/determ/determ.o: DENSE/source/sim/determ/determ.cpp.o
@@ -727,9 +632,8 @@ DENSE/source/sim/determ/determ.o: DENSE/source/sim/determ/determ.cpp.o
 
 # target to build an object file
 DENSE/source/sim/determ/determ.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o
 .PHONY : DENSE/source/sim/determ/determ.cpp.o
 
 DENSE/source/sim/determ/determ.i: DENSE/source/sim/determ/determ.cpp.i
@@ -738,9 +642,8 @@ DENSE/source/sim/determ/determ.i: DENSE/source/sim/determ/determ.cpp.i
 
 # target to preprocess a source file
 DENSE/source/sim/determ/determ.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.i
 .PHONY : DENSE/source/sim/determ/determ.cpp.i
 
 DENSE/source/sim/determ/determ.s: DENSE/source/sim/determ/determ.cpp.s
@@ -749,9 +652,8 @@ DENSE/source/sim/determ/determ.s: DENSE/source/sim/determ/determ.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/sim/determ/determ.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/determ/determ.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.s
 .PHONY : DENSE/source/sim/determ/determ.cpp.s
 
 DENSE/source/sim/stoch/fast_gillespie_direct_simulation.o: DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
@@ -760,9 +662,8 @@ DENSE/source/sim/stoch/fast_gillespie_direct_simulation.o: DENSE/source/sim/stoc
 
 # target to build an object file
 DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
 .PHONY : DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
 
 DENSE/source/sim/stoch/fast_gillespie_direct_simulation.i: DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
@@ -771,9 +672,8 @@ DENSE/source/sim/stoch/fast_gillespie_direct_simulation.i: DENSE/source/sim/stoc
 
 # target to preprocess a source file
 DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
 .PHONY : DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
 
 DENSE/source/sim/stoch/fast_gillespie_direct_simulation.s: DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
@@ -782,9 +682,8 @@ DENSE/source/sim/stoch/fast_gillespie_direct_simulation.s: DENSE/source/sim/stoc
 
 # target to generate assembly for a file
 DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
 .PHONY : DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
 
 DENSE/source/sim/stoch/next_reaction_simulation.o: DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
@@ -793,9 +692,8 @@ DENSE/source/sim/stoch/next_reaction_simulation.o: DENSE/source/sim/stoch/next_r
 
 # target to build an object file
 DENSE/source/sim/stoch/next_reaction_simulation.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
 .PHONY : DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
 
 DENSE/source/sim/stoch/next_reaction_simulation.i: DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
@@ -804,9 +702,8 @@ DENSE/source/sim/stoch/next_reaction_simulation.i: DENSE/source/sim/stoch/next_r
 
 # target to preprocess a source file
 DENSE/source/sim/stoch/next_reaction_simulation.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
 .PHONY : DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
 
 DENSE/source/sim/stoch/next_reaction_simulation.s: DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
@@ -815,43 +712,9 @@ DENSE/source/sim/stoch/next_reaction_simulation.s: DENSE/source/sim/stoch/next_r
 
 # target to generate assembly for a file
 DENSE/source/sim/stoch/next_reaction_simulation.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
 .PHONY : DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
-
-DENSE/source/sim/stoch/rejection_based_simulation.o: DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
-
-.PHONY : DENSE/source/sim/stoch/rejection_based_simulation.o
-
-# target to build an object file
-DENSE/source/sim/stoch/rejection_based_simulation.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
-.PHONY : DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
-
-DENSE/source/sim/stoch/rejection_based_simulation.i: DENSE/source/sim/stoch/rejection_based_simulation.cpp.i
-
-.PHONY : DENSE/source/sim/stoch/rejection_based_simulation.i
-
-# target to preprocess a source file
-DENSE/source/sim/stoch/rejection_based_simulation.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.i
-.PHONY : DENSE/source/sim/stoch/rejection_based_simulation.cpp.i
-
-DENSE/source/sim/stoch/rejection_based_simulation.s: DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
-
-.PHONY : DENSE/source/sim/stoch/rejection_based_simulation.s
-
-# target to generate assembly for a file
-DENSE/source/sim/stoch/rejection_based_simulation.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
-.PHONY : DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
 
 DENSE/source/sim/stoch/stoch.o: DENSE/source/sim/stoch/stoch.cpp.o
 
@@ -859,9 +722,8 @@ DENSE/source/sim/stoch/stoch.o: DENSE/source/sim/stoch/stoch.cpp.o
 
 # target to build an object file
 DENSE/source/sim/stoch/stoch.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o
 .PHONY : DENSE/source/sim/stoch/stoch.cpp.o
 
 DENSE/source/sim/stoch/stoch.i: DENSE/source/sim/stoch/stoch.cpp.i
@@ -870,9 +732,8 @@ DENSE/source/sim/stoch/stoch.i: DENSE/source/sim/stoch/stoch.cpp.i
 
 # target to preprocess a source file
 DENSE/source/sim/stoch/stoch.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i
 .PHONY : DENSE/source/sim/stoch/stoch.cpp.i
 
 DENSE/source/sim/stoch/stoch.s: DENSE/source/sim/stoch/stoch.cpp.s
@@ -881,9 +742,8 @@ DENSE/source/sim/stoch/stoch.s: DENSE/source/sim/stoch/stoch.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/sim/stoch/stoch.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s
 .PHONY : DENSE/source/sim/stoch/stoch.cpp.s
 
 DENSE/source/utility/color.o: DENSE/source/utility/color.cpp.o
@@ -892,9 +752,8 @@ DENSE/source/utility/color.o: DENSE/source/utility/color.cpp.o
 
 # target to build an object file
 DENSE/source/utility/color.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/color.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o
 .PHONY : DENSE/source/utility/color.cpp.o
 
 DENSE/source/utility/color.i: DENSE/source/utility/color.cpp.i
@@ -903,9 +762,8 @@ DENSE/source/utility/color.i: DENSE/source/utility/color.cpp.i
 
 # target to preprocess a source file
 DENSE/source/utility/color.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/color.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.i
 .PHONY : DENSE/source/utility/color.cpp.i
 
 DENSE/source/utility/color.s: DENSE/source/utility/color.cpp.s
@@ -914,9 +772,8 @@ DENSE/source/utility/color.s: DENSE/source/utility/color.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/utility/color.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/color.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/color.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.s
 .PHONY : DENSE/source/utility/color.cpp.s
 
 DENSE/source/utility/common_utils.o: DENSE/source/utility/common_utils.cpp.o
@@ -925,9 +782,8 @@ DENSE/source/utility/common_utils.o: DENSE/source/utility/common_utils.cpp.o
 
 # target to build an object file
 DENSE/source/utility/common_utils.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o
 .PHONY : DENSE/source/utility/common_utils.cpp.o
 
 DENSE/source/utility/common_utils.i: DENSE/source/utility/common_utils.cpp.i
@@ -936,9 +792,8 @@ DENSE/source/utility/common_utils.i: DENSE/source/utility/common_utils.cpp.i
 
 # target to preprocess a source file
 DENSE/source/utility/common_utils.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.i
 .PHONY : DENSE/source/utility/common_utils.cpp.i
 
 DENSE/source/utility/common_utils.s: DENSE/source/utility/common_utils.cpp.s
@@ -947,9 +802,8 @@ DENSE/source/utility/common_utils.s: DENSE/source/utility/common_utils.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/utility/common_utils.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/common_utils.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.s
 .PHONY : DENSE/source/utility/common_utils.cpp.s
 
 DENSE/source/utility/preprocessor.o: DENSE/source/utility/preprocessor.cpp.o
@@ -958,9 +812,8 @@ DENSE/source/utility/preprocessor.o: DENSE/source/utility/preprocessor.cpp.o
 
 # target to build an object file
 DENSE/source/utility/preprocessor.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o
 .PHONY : DENSE/source/utility/preprocessor.cpp.o
 
 DENSE/source/utility/preprocessor.i: DENSE/source/utility/preprocessor.cpp.i
@@ -969,9 +822,8 @@ DENSE/source/utility/preprocessor.i: DENSE/source/utility/preprocessor.cpp.i
 
 # target to preprocess a source file
 DENSE/source/utility/preprocessor.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.i
 .PHONY : DENSE/source/utility/preprocessor.cpp.i
 
 DENSE/source/utility/preprocessor.s: DENSE/source/utility/preprocessor.cpp.s
@@ -980,43 +832,63 @@ DENSE/source/utility/preprocessor.s: DENSE/source/utility/preprocessor.cpp.s
 
 # target to generate assembly for a file
 DENSE/source/utility/preprocessor.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction_lib.dir/build.make CMakeFiles/turing_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction_lib.dir/build.make CMakeFiles/briggs_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction_lib.dir/build.make CMakeFiles/delay_simulation_nextreaction_lib.dir/DENSE/source/utility/preprocessor.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.s
 .PHONY : DENSE/source/utility/preprocessor.cpp.s
 
-custom_main.o: custom_main.cpp.o
+Density_Experiment/main.o: Density_Experiment/main.cpp.o
 
-.PHONY : custom_main.o
+.PHONY : Density_Experiment/main.o
 
 # target to build an object file
-custom_main.cpp.o:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction.dir/build.make CMakeFiles/turing_simulation_nextreaction.dir/custom_main.cpp.o
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction.dir/build.make CMakeFiles/briggs_simulation_nextreaction.dir/custom_main.cpp.o
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction.dir/build.make CMakeFiles/delay_simulation_nextreaction.dir/custom_main.cpp.o
-.PHONY : custom_main.cpp.o
+Density_Experiment/main.cpp.o:
+	$(MAKE) -f CMakeFiles/density_experiment.dir/build.make CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o
+.PHONY : Density_Experiment/main.cpp.o
 
-custom_main.i: custom_main.cpp.i
+Density_Experiment/main.i: Density_Experiment/main.cpp.i
 
-.PHONY : custom_main.i
+.PHONY : Density_Experiment/main.i
 
 # target to preprocess a source file
-custom_main.cpp.i:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction.dir/build.make CMakeFiles/turing_simulation_nextreaction.dir/custom_main.cpp.i
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction.dir/build.make CMakeFiles/briggs_simulation_nextreaction.dir/custom_main.cpp.i
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction.dir/build.make CMakeFiles/delay_simulation_nextreaction.dir/custom_main.cpp.i
-.PHONY : custom_main.cpp.i
+Density_Experiment/main.cpp.i:
+	$(MAKE) -f CMakeFiles/density_experiment.dir/build.make CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.i
+.PHONY : Density_Experiment/main.cpp.i
 
-custom_main.s: custom_main.cpp.s
+Density_Experiment/main.s: Density_Experiment/main.cpp.s
 
-.PHONY : custom_main.s
+.PHONY : Density_Experiment/main.s
 
 # target to generate assembly for a file
-custom_main.cpp.s:
-	$(MAKE) -f CMakeFiles/turing_simulation_nextreaction.dir/build.make CMakeFiles/turing_simulation_nextreaction.dir/custom_main.cpp.s
-	$(MAKE) -f CMakeFiles/briggs_simulation_nextreaction.dir/build.make CMakeFiles/briggs_simulation_nextreaction.dir/custom_main.cpp.s
-	$(MAKE) -f CMakeFiles/delay_simulation_nextreaction.dir/build.make CMakeFiles/delay_simulation_nextreaction.dir/custom_main.cpp.s
-.PHONY : custom_main.cpp.s
+Density_Experiment/main.cpp.s:
+	$(MAKE) -f CMakeFiles/density_experiment.dir/build.make CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.s
+.PHONY : Density_Experiment/main.cpp.s
+
+Scale_Experiment/main.o: Scale_Experiment/main.cpp.o
+
+.PHONY : Scale_Experiment/main.o
+
+# target to build an object file
+Scale_Experiment/main.cpp.o:
+	$(MAKE) -f CMakeFiles/scale_experiment.dir/build.make CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o
+.PHONY : Scale_Experiment/main.cpp.o
+
+Scale_Experiment/main.i: Scale_Experiment/main.cpp.i
+
+.PHONY : Scale_Experiment/main.i
+
+# target to preprocess a source file
+Scale_Experiment/main.cpp.i:
+	$(MAKE) -f CMakeFiles/scale_experiment.dir/build.make CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.i
+.PHONY : Scale_Experiment/main.cpp.i
+
+Scale_Experiment/main.s: Scale_Experiment/main.cpp.s
+
+.PHONY : Scale_Experiment/main.s
+
+# target to generate assembly for a file
+Scale_Experiment/main.cpp.s:
+	$(MAKE) -f CMakeFiles/scale_experiment.dir/build.make CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.s
+.PHONY : Scale_Experiment/main.cpp.s
 
 # Help Target
 help:
@@ -1026,12 +898,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... turing_simulation_nextreaction"
-	@echo "... turing_simulation_nextreaction_lib"
-	@echo "... briggs_simulation_nextreaction_lib"
-	@echo "... briggs_simulation_nextreaction"
-	@echo "... delay_simulation_nextreaction_lib"
-	@echo "... delay_simulation_nextreaction"
+	@echo "... scale_experiment"
+	@echo "... scale_experiment_lib"
+	@echo "... density_experiment_lib"
+	@echo "... density_experiment"
 	@echo "... her2014_simulation_lib"
 	@echo "... her2014_simulation"
 	@echo "... bz_simulation_lib"
@@ -1058,9 +928,6 @@ help:
 	@echo "... DENSE/source/io/ezxml/ezxml.o"
 	@echo "... DENSE/source/io/ezxml/ezxml.i"
 	@echo "... DENSE/source/io/ezxml/ezxml.s"
-	@echo "... DENSE/source/rejection_based_main.o"
-	@echo "... DENSE/source/rejection_based_main.i"
-	@echo "... DENSE/source/rejection_based_main.s"
 	@echo "... DENSE/source/search/libsres/ESES.o"
 	@echo "... DENSE/source/search/libsres/ESES.i"
 	@echo "... DENSE/source/search/libsres/ESES.s"
@@ -1088,9 +955,6 @@ help:
 	@echo "... DENSE/source/sim/stoch/next_reaction_simulation.o"
 	@echo "... DENSE/source/sim/stoch/next_reaction_simulation.i"
 	@echo "... DENSE/source/sim/stoch/next_reaction_simulation.s"
-	@echo "... DENSE/source/sim/stoch/rejection_based_simulation.o"
-	@echo "... DENSE/source/sim/stoch/rejection_based_simulation.i"
-	@echo "... DENSE/source/sim/stoch/rejection_based_simulation.s"
 	@echo "... DENSE/source/sim/stoch/stoch.o"
 	@echo "... DENSE/source/sim/stoch/stoch.i"
 	@echo "... DENSE/source/sim/stoch/stoch.s"
@@ -1103,9 +967,12 @@ help:
 	@echo "... DENSE/source/utility/preprocessor.o"
 	@echo "... DENSE/source/utility/preprocessor.i"
 	@echo "... DENSE/source/utility/preprocessor.s"
-	@echo "... custom_main.o"
-	@echo "... custom_main.i"
-	@echo "... custom_main.s"
+	@echo "... Density_Experiment/main.o"
+	@echo "... Density_Experiment/main.i"
+	@echo "... Density_Experiment/main.s"
+	@echo "... Scale_Experiment/main.o"
+	@echo "... Scale_Experiment/main.i"
+	@echo "... Scale_Experiment/main.s"
 .PHONY : help
 
 

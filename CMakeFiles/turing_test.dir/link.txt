@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/turing_test.dir/Turing-Pattern/main.cpp.o  -o turing_test libturing_test_lib.a 

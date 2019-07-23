@@ -281,13 +281,19 @@ StochSimMethods_BINARY_DIR:STATIC=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_
 StochSimMethods_SOURCE_DIR:STATIC=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks
 
 //Dependencies for target
-briggs_simulation_nextreaction_lib_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
 bz_simulation_lib_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
-delay_simulation_nextreaction_lib_LIB_DEPENDS:STATIC=
+density_experiment_lib_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+density_fast_gillespasdfie_lib_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+density_fast_gillespie_lib_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+density_fg_lib_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 her2014_simulation_lib_LIB_DEPENDS:STATIC=
@@ -296,10 +302,13 @@ her2014_simulation_lib_LIB_DEPENDS:STATIC=
 nan_simulation_lib_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+scale_experiment_lib_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 time_test_lib_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
-turing_simulation_nextreaction_lib_LIB_DEPENDS:STATIC=
+turing_test_lib_LIB_DEPENDS:STATIC=
 
 
 ########################
