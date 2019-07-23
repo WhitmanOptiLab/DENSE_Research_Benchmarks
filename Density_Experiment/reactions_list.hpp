@@ -14,12 +14,12 @@ Declare reactions in `reactions_list.hpp`. List the reaction names between the t
 
 //DEFINE REACTIONS HERE
 
-DELAY_REACTION(reac1)
-DELAY_REACTION(reac2)
+REACTION(reaction1)
+REACTION(reaction2)
+REACTION(reaction3)
+REACTION(reaction4)
 
 #ifdef UNDO_DELAY_REACTION_DEF
 #undef DELAY_REACTION 
 #undef UNDO_DELAY_REACTION_DEF
 #endif
-
-
