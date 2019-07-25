@@ -38,6 +38,8 @@ CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/ce
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/cell_param.ipp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/determ/baby_cl.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/determ/determ.hpp
+CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/Gillespie_Direct_Simulation.hpp
+CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/completetree.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/fast_gillespie_direct_simulation.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/indexed_priority_queue.hpp

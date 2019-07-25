@@ -201,9 +201,57 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simul
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o.provides.build: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
 
 
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp > CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.i
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp -o CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.s
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.requires:
+
+.PHONY : CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.requires
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.provides: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.provides.build
+.PHONY : CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.provides
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.provides.build: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o
+
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o: DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp > CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.i
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp -o CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.s
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.requires:
+
+.PHONY : CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.requires
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.provides: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.provides.build
+.PHONY : CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.provides
+
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.provides.build: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o
+
+
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: DENSE/source/sim/stoch/stoch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/stoch.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i: cmake_force
@@ -227,7 +275,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o.provide
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o: DENSE/source/utility/common_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/common_utils.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.i: cmake_force
@@ -251,7 +299,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o.pr
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o: DENSE/source/utility/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/color.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.i: cmake_force
@@ -275,7 +323,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o.provides.
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o: DENSE/source/utility/preprocessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/preprocessor.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.i: cmake_force
@@ -299,7 +347,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o.pr
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o: DENSE/source/io/arg_parse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/arg_parse.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.i: cmake_force
@@ -323,7 +371,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o.provides.b
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.o: DENSE/source/io/csvr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvr.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.i: cmake_force
@@ -347,7 +395,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr.cpp.o.provides.build:
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o: DENSE/source/io/csvr_sim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvr_sim.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.i: cmake_force
@@ -371,7 +419,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o.provides.bu
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.o: DENSE/source/io/csvw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvw.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.i: cmake_force
@@ -395,7 +443,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/io/csvw.cpp.o.provides.build:
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o: DENSE/source/io/ezxml/ezxml.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o   -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.c
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.i: cmake_force
@@ -419,7 +467,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o.provides.b
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.o: DENSE/source/search/sres.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/sres.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.i: cmake_force
@@ -443,7 +491,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/search/sres.cpp.o.provides.bu
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o: DENSE/source/search/libsres/ESES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESES.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.i: cmake_force
@@ -467,7 +515,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o.pro
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o: DENSE/source/search/libsres/ESSRSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESSRSort.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i: cmake_force
@@ -491,7 +539,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o: DENSE/source/search/libsres/sharefunc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/sharefunc.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i: cmake_force
@@ -515,7 +563,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.i: cmake_force
@@ -539,7 +587,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_sim
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: CMakeFiles/density_experiment_lib.dir/flags.make
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/rejection_based_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.i: cmake_force
@@ -569,6 +617,8 @@ density_experiment_lib_OBJECTS = \
 "CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o" \
 "CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o" \
 "CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o" \
+"CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o" \
+"CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o" \
 "CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o" \
 "CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o" \
 "CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o" \
@@ -594,6 +644,8 @@ libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
+libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o
+libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o
@@ -611,7 +663,7 @@ libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/build.make
 libdensity_experiment_lib.a: CMakeFiles/density_experiment_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libdensity_experiment_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libdensity_experiment_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/density_experiment_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/density_experiment_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -626,6 +678,8 @@ CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_li
 CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o.requires
 CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o.requires
 CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o.requires
+CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.requires
+CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.requires
 CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o.requires
 CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o.requires
 CMakeFiles/density_experiment_lib.dir/requires: CMakeFiles/density_experiment_lib.dir/DENSE/source/utility/color.cpp.o.requires
