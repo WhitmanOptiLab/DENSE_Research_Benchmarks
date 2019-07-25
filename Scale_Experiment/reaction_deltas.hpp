@@ -30,5 +30,5 @@ STATIC_VAR int deltas_reaction3[] = {-1, 2};
 STATIC_VAR specie_id delta_ids_reaction3[] = {specie3,specie2};
 
 STATIC_VAR int num_deltas_reaction4 = 4;
-STATIC_VAR int deltas_reaction4[] = {1, 1, 1, 1};
-STATIC_VAR specie_id delta_ids_reaction4[] = {specie1,specie4,specie3,specie2};
+STATIC_VAR int deltas_reaction4[] = {-1, -2, 1, 1};
+STATIC_VAR specie_id delta_ids_reaction4[] = {specie1,specie2,specie3,specie4};

@@ -31,6 +31,8 @@ endfunction(MAKE_EXPERIMENTS localname simdir)
 
 MAKE_EXPERIMENTS(scale_experiment ${CMAKE_SOURCE_DIR}/Scale_Experiment)
 
+MAKE_EXPERIMENTS(density_experiment ${CMAKE_SOURCE_DIR}/Density_Experiment)
+
 MAKE_EXPERIMENTS(overhead_experiment ${CMAKE_SOURCE_DIR}/Overhead_Experiment)
 
 MAKE_EXPERIMENTS(skew_experiment ${CMAKE_SOURCE_DIR}/Skew_Experiment)
