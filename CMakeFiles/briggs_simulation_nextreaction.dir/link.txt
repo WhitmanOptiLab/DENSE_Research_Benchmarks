@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/briggs_simulation_nextreaction.dir/custom_main.cpp.o  -o briggs_simulation_nextreaction libbriggs_simulation_nextreaction_lib.a 
