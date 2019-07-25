@@ -65,25 +65,25 @@ RATETYPE reaction<ph1_degradation>::active_rate(const Ctxt& c) const {
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction1>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction1)-c.calculateNeighborAvg(specie1,1)-c.calculateNeighborAvg(specie2,1)-c.calculateNeighborAvg(specie3,1)-c.calculateNeighborAvg(specie4,1);
+    return c.getRate(reaction1)-c.calculateNeighborAvg(specie1,1)+c.calculateNeighborAvg(specie2,1)+c.calculateNeighborAvg(specie3,1)+c.calculateNeighborAvg(specie4,1);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction2>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction2)-c.calculateNeighborAvg(specie1,1)-c.calculateNeighborAvg(specie2,1)-c.calculateNeighborAvg(specie3,1)-c.calculateNeighborAvg(specie4,1);
+    return c.getRate(reaction2)-c.calculateNeighborAvg(specie1,1)+c.calculateNeighborAvg(specie2,1)+c.calculateNeighborAvg(specie3,1)+c.calculateNeighborAvg(specie4,1);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction3>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction3)+c.calculateNeighborAvg(specie1,1)+c.calculateNeighborAvg(specie2,1)+c.calculateNeighborAvg(specie3,1)+c.calculateNeighborAvg(specie4,1);
+    return c.getRate(reaction3)-c.calculateNeighborAvg(specie1,1)+c.calculateNeighborAvg(specie2,1)+c.calculateNeighborAvg(specie3,1)+c.calculateNeighborAvg(specie4,1);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction4>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction4)+c.calculateNeighborAvg(specie1,1)+c.calculateNeighborAvg(specie2,1)+c.calculateNeighborAvg(specie3,1)+c.calculateNeighborAvg(specie4,1);
+    return c.getRate(reaction4)-c.calculateNeighborAvg(specie1,1)+c.calculateNeighborAvg(specie2,1)+c.calculateNeighborAvg(specie3,1)+c.calculateNeighborAvg(specie4,1);
 }
 
 
