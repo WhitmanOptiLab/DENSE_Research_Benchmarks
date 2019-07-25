@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o  -o exponential_experiment libexponential_experiment_lib.a 
