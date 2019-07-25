@@ -29,9 +29,14 @@ function(MAKE_EXPERIMENTS localname simdir)
   SIMULATION(${localname} ${simdir} ${simdir}/main.cpp)
 endfunction(MAKE_EXPERIMENTS localname simdir)
 
-MAKE_EXPERIMENTS(density_experiment ${CMAKE_SOURCE_DIR}/Density_Experiment)
-
 MAKE_EXPERIMENTS(scale_experiment ${CMAKE_SOURCE_DIR}/Scale_Experiment)
 
+MAKE_EXPERIMENTS(overhead_experiment ${CMAKE_SOURCE_DIR}/Overhead_Experiment)
 
+MAKE_EXPERIMENTS(skew_experiment ${CMAKE_SOURCE_DIR}/Skew_Experiment)
 
+MAKE_EXPERIMENTS(exponential_experiment ${CMAKE_SOURCE_DIR}/Exponential_Experiment)
+
+MAKE_EXPERIMENTS(oscillating_experiment ${CMAKE_SOURCE_DIR}/Oscillating_Experiment)
+
+add_executable(run_experiment run_experiments.cpp)

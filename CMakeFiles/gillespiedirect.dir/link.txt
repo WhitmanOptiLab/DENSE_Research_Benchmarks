@@ -1,2 +1,0 @@
-/usr/bin/ar qc libgillespiedirect.a  CMakeFiles/gillespiedirect.dir/other_simulations/Gillespie_Direct_Simulation.cpp.o
-/usr/bin/ranlib libgillespiedirect.a

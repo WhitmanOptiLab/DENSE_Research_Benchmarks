@@ -65,7 +65,41 @@ RATETYPE reaction<ph1_degradation>::active_rate(const Ctxt& c) const {
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction1>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction1);
+    if(int(c.getCon(specie1)) % 2 == 0){
+      return c.getRate(reaction1);
+    } else {
+      return 0;
+    }
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction2>::active_rate(const Ctxt& c) {
+    if(int(c.getCon(specie1)) % 2 == 1){
+      return c.getRate(reaction2);
+    } else {
+      return 0;
+    }
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction3>::active_rate(const Ctxt& c) {
+    if(int(c.getCon(specie1)) % 2 == 1){
+      return c.getRate(reaction3);
+    } else {
+      return 0;
+    }
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction4>::active_rate(const Ctxt& c) {
+    if(int(c.getCon(specie1)) % 2 == 1){
+      return c.getRate(reaction4);
+    } else {
+      return 0;
+    }
 }
 
 

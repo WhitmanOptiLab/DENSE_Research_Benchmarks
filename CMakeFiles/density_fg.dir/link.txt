@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/density_fg.dir/Density_Experiment/density_main.cpp.o  -o density_fg libdensity_fg_lib.a 
