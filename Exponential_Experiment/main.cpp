@@ -24,7 +24,6 @@ using style::Color;
 #include <iostream>
 
 using dense::csvw_sim;
-using dense::Fast_Gillespie_Direct_Simulation;
 using dense::Sim_Builder;
 using dense::parse_static_args;
 using dense::parse_analysis_entries;
@@ -44,19 +43,17 @@ int main(int argc, char* argv[]){
   }
   
   std::cout << style::apply(Color::yellow) << "Starting the Fast Gillespie Simulation\n" << style::reset();
-  simulate_experiment<Fast_Gillespie_Direct_Simulation>(ac, av, &args, "Overhead_Experiment/Fast_Gillespie_Overhead");
+  simulate_experiment<Fast_Gillespie_Direct_Simulation>(ac, av, &args, "Exponential_Experiment/Fast_Gillespie_Exponential");
   std::cout << style::apply(Color::yellow) << "Finished the Fast Gillespie Simulation\n\n";
   
   std::cout << "Starting the Deterministic Simulation\n" << style::reset();
-  simulate_experiment<Deterministic_Simulation>(ac, av, &args, "Overhead_Experiment/Deterministic_Overhead");
+  simulate_experiment<Deterministic_Simulation>(ac, av, &args, "Exponential_Experiment/Deterministic_Exponential");
   std::cout << style::apply(Color::yellow) << "Finished the Deterministic Simulation\n\n";
   
   std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
-  //simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Overhead_Experiment/Next_Reaction_Overhead");
+  //simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Exponential_Experiment/Next_Reaction_Exponential");
   std::cout << style::apply(Color::red) << "Error: could not run\n" << style::reset();
   std::cout << style::apply(Color::yellow) << "Finished the Next Reaction Simulation\n" << style::reset();
 }
 
-//PARAMS USING: ./overhead_experiment -p Overhead_Experiment/param_sets.csv -e " " -d Overhead_Experiment/init_conc.csv -t 10 -u 1.0 -c 100 -w 1 -s 1.0
-
-
+//PARAMS USING: ./exponential_experiment -p Exponential_Experiment/param_sets.csv -e " " -d Exponential_Experiment/init_conc.csv -t 10 -u 1.0 -c 100 -w 1 -s 1.0

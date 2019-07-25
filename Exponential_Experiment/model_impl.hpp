@@ -68,5 +68,70 @@ RATETYPE reaction<reaction1>::active_rate(const Ctxt& c) {
     return c.getRate(reaction1);
 }
 
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction2>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction2);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction3>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction3);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction4>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction4);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction5>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction5);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction6>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction6);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction7>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction7);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction8>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction8);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction9>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction9);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction10>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction10);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction11>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction11);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction12>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction12);
+}
 
 #endif // MODEL_IMPL_H
