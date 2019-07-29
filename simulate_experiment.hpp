@@ -12,6 +12,7 @@
 #include "sim/determ/determ.hpp"
 #include "sim/stoch/fast_gillespie_direct_simulation.hpp"
 #include "sim/stoch/next_reaction_simulation.hpp"
+#include "sim/stoch/sorting_direct_simulation.hpp"
 #include "model_impl.hpp"
 #include "io/ezxml/ezxml.h"
 #include "arg_parse.hpp"
@@ -21,17 +22,21 @@
 using dense::run_simulation;
 using dense::Sim_Builder;
 using dense::parse_analysis_entries;
+using dense::Sorting_Direct_Simulation;
+
 
 
 template<class Sim>
-void simulate_experiment(int ac, char** av, Static_Args* args, std::string type){
+std::vector<Real> simulate_experiment(int ac, char** av, Static_Args* args, std::string type){
   using Simulation = Sim;
   Sim_Builder<Simulation> sim = Sim_Builder<Simulation>(args->perturbation_factors, args->gradient_factors, args->adj_graph, ac, av);
   std::vector<std::pair<std::string, std::unique_ptr<Analysis<Simulation>>>> names_and_analysis = parse_analysis_entries<Simulation>(ac, av, args->adj_graph.num_vertices());
   for(auto& entry : names_and_analysis){
-    entry.first = type + ".csv";
+    entry.first = "output/" + type + ".csv";
   }
-  run_simulation<Simulation>(args->simulation_duration, args->analysis_interval, std::move(sim.get_simulations(args->param_sets)), std::move(names_and_analysis));
+  std::vector<std::vector<Real>> perf = run_simulation<Simulation>(args->simulation_duration, args->analysis_interval, std::move(sim.get_simulations(args->param_sets)), std::move(names_and_analysis));
+  
+  return perf.back();
 }
 
 #endif
