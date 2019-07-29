@@ -126,6 +126,7 @@ CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENS
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/style.hpp
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/core/model.hpp
@@ -361,6 +362,28 @@ CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simula
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Skew_Experiment/model_impl.hpp
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Skew_Experiment/reactions_list.hpp
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Skew_Experiment/specie_list.hpp
+
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/model.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/parameter_set.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/reaction.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/specie.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/equivalence.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/ngraph.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/ngraph_components.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/set_ops.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/base.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/cell_param.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/cell_param.ipp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/common_utils.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/configurable.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/cuda.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/numerics.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/preprocessor.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Skew_Experiment/model_impl.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Skew_Experiment/reactions_list.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Skew_Experiment/specie_list.hpp
 
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: DENSE/source/sim/stoch/stoch.cpp
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: DENSE/source/sim/stoch/stoch.hpp

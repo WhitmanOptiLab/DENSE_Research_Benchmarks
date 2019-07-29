@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
   "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
   "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
+  "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
   "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
   "liboscillating_experiment_lib.pdb"
   "liboscillating_experiment_lib.a"

@@ -48,6 +48,7 @@ CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o: DENSE/source/si
 CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o: DENSE/source/utility/configurable.hpp
 CMakeFiles/density_experiment.dir/Density_Experiment/main.cpp.o: DENSE/source/utility/cuda.hpp

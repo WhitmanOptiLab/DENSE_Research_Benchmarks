@@ -585,9 +585,33 @@ CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simula
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o.provides.build: CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
 
 
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: CMakeFiles/skew_experiment_lib.dir/flags.make
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp > CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp -o CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires:
+
+.PHONY : CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
+
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides: CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/skew_experiment_lib.dir/build.make CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides.build
+.PHONY : CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides
+
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides.build: CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+
+
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: CMakeFiles/skew_experiment_lib.dir/flags.make
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/rejection_based_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp
 
 CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.i: cmake_force
@@ -633,6 +657,7 @@ skew_experiment_lib_OBJECTS = \
 "CMakeFiles/skew_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o" \
 "CMakeFiles/skew_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o" \
 "CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o" \
+"CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o" \
 "CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
 
 # External object files for target skew_experiment_lib
@@ -660,10 +685,11 @@ libskew_experiment_lib.a: CMakeFiles/skew_experiment_lib.dir/DENSE/source/search
 libskew_experiment_lib.a: CMakeFiles/skew_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
 libskew_experiment_lib.a: CMakeFiles/skew_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o
 libskew_experiment_lib.a: CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
+libskew_experiment_lib.a: CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
 libskew_experiment_lib.a: CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o
 libskew_experiment_lib.a: CMakeFiles/skew_experiment_lib.dir/build.make
 libskew_experiment_lib.a: CMakeFiles/skew_experiment_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libskew_experiment_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library libskew_experiment_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/skew_experiment_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/skew_experiment_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -694,6 +720,7 @@ CMakeFiles/skew_experiment_lib.dir/requires: CMakeFiles/skew_experiment_lib.dir/
 CMakeFiles/skew_experiment_lib.dir/requires: CMakeFiles/skew_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o.requires
 CMakeFiles/skew_experiment_lib.dir/requires: CMakeFiles/skew_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o.requires
 CMakeFiles/skew_experiment_lib.dir/requires: CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o.requires
+CMakeFiles/skew_experiment_lib.dir/requires: CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
 CMakeFiles/skew_experiment_lib.dir/requires: CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o.requires
 
 .PHONY : CMakeFiles/skew_experiment_lib.dir/requires

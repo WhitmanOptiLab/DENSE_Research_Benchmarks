@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/overhead_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
   "CMakeFiles/overhead_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
   "CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
+  "CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
   "CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
   "liboverhead_experiment_lib.pdb"
   "liboverhead_experiment_lib.a"

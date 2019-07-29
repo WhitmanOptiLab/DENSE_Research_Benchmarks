@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/exponential_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
   "CMakeFiles/exponential_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
   "CMakeFiles/exponential_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
+  "CMakeFiles/exponential_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
   "CMakeFiles/exponential_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
   "libexponential_experiment_lib.pdb"
   "libexponential_experiment_lib.a"

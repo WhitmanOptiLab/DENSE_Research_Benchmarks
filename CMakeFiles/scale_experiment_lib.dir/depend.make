@@ -126,6 +126,7 @@ CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DEN
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/style.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/core/model.hpp
@@ -361,6 +362,28 @@ CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simul
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Scale_Experiment/model_impl.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Scale_Experiment/reactions_list.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Scale_Experiment/specie_list.hpp
+
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/model.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/parameter_set.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/reaction.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/specie.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/equivalence.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/ngraph.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/ngraph_components.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/set_ops.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/base.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/cell_param.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/cell_param.ipp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/common_utils.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/configurable.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/cuda.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/numerics.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/preprocessor.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Scale_Experiment/model_impl.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Scale_Experiment/reactions_list.hpp
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Scale_Experiment/specie_list.hpp
 
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: DENSE/source/sim/stoch/stoch.cpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: DENSE/source/sim/stoch/stoch.hpp

@@ -48,6 +48,7 @@ CMakeFiles/overhead_experiment.dir/Overhead_Experiment/main.cpp.o: DENSE/source/
 CMakeFiles/overhead_experiment.dir/Overhead_Experiment/main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/overhead_experiment.dir/Overhead_Experiment/main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/overhead_experiment.dir/Overhead_Experiment/main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/overhead_experiment.dir/Overhead_Experiment/main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 CMakeFiles/overhead_experiment.dir/Overhead_Experiment/main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/overhead_experiment.dir/Overhead_Experiment/main.cpp.o: DENSE/source/utility/configurable.hpp
 CMakeFiles/overhead_experiment.dir/Overhead_Experiment/main.cpp.o: DENSE/source/utility/cuda.hpp

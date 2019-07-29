@@ -585,9 +585,33 @@ CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simul
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o.provides.build: CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
 
 
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: CMakeFiles/scale_experiment_lib.dir/flags.make
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp > CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp -o CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires:
+
+.PHONY : CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
+
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides: CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides.build
+.PHONY : CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides
+
+CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides.build: CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+
+
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: CMakeFiles/scale_experiment_lib.dir/flags.make
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/rejection_based_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp
 
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.i: cmake_force
@@ -633,6 +657,7 @@ scale_experiment_lib_OBJECTS = \
 "CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o" \
 "CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o" \
 "CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o" \
+"CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o" \
 "CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
 
 # External object files for target scale_experiment_lib
@@ -660,10 +685,11 @@ libscale_experiment_lib.a: CMakeFiles/scale_experiment_lib.dir/DENSE/source/sear
 libscale_experiment_lib.a: CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
 libscale_experiment_lib.a: CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o
 libscale_experiment_lib.a: CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
+libscale_experiment_lib.a: CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
 libscale_experiment_lib.a: CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o
 libscale_experiment_lib.a: CMakeFiles/scale_experiment_lib.dir/build.make
 libscale_experiment_lib.a: CMakeFiles/scale_experiment_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libscale_experiment_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library libscale_experiment_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/scale_experiment_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scale_experiment_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -694,6 +720,7 @@ CMakeFiles/scale_experiment_lib.dir/requires: CMakeFiles/scale_experiment_lib.di
 CMakeFiles/scale_experiment_lib.dir/requires: CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o.requires
 CMakeFiles/scale_experiment_lib.dir/requires: CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o.requires
 CMakeFiles/scale_experiment_lib.dir/requires: CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o.requires
+CMakeFiles/scale_experiment_lib.dir/requires: CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
 CMakeFiles/scale_experiment_lib.dir/requires: CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o.requires
 
 .PHONY : CMakeFiles/scale_experiment_lib.dir/requires

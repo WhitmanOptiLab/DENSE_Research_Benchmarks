@@ -126,6 +126,7 @@ CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: 
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/style.hpp
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/core/model.hpp
@@ -361,6 +362,28 @@ CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_si
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Overhead_Experiment/model_impl.hpp
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Overhead_Experiment/reactions_list.hpp
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Overhead_Experiment/specie_list.hpp
+
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/model.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/parameter_set.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/reaction.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/core/specie.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/equivalence.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/ngraph.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/ngraph_components.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/ngraph/set_ops.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/base.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/cell_param.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/cell_param.ipp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/common_utils.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/configurable.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/cuda.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/numerics.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/utility/preprocessor.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Overhead_Experiment/model_impl.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Overhead_Experiment/reactions_list.hpp
+CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: Overhead_Experiment/specie_list.hpp
 
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: DENSE/source/sim/stoch/stoch.cpp
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: DENSE/source/sim/stoch/stoch.hpp

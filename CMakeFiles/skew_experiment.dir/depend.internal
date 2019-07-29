@@ -49,6 +49,7 @@ CMakeFiles/skew_experiment.dir/Skew_Experiment/main.cpp.o
  DENSE/source/sim/stoch/random_selector.hpp
  DENSE/source/sim/stoch/rejection_based_simulation.hpp
  DENSE/source/sim/stoch/rxn_struct.hpp
+ DENSE/source/sim/stoch/sorting_direct_simulation.hpp
  DENSE/source/utility/common_utils.hpp
  DENSE/source/utility/configurable.hpp
  DENSE/source/utility/cuda.hpp

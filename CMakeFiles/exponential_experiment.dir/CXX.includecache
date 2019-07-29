@@ -91,6 +91,8 @@ sim/stoch/fast_gillespie_direct_simulation.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/sim/stoch/fast_gillespie_direct_simulation.hpp
 sim/stoch/next_reaction_simulation.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/sim/stoch/next_reaction_simulation.hpp
+sim/stoch/sorting_direct_simulation.hpp
+/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/sim/stoch/sorting_direct_simulation.hpp
 model_impl.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/model_impl.hpp
 io/ezxml/ezxml.h
@@ -135,6 +137,8 @@ io/ezxml/ezxml.h
 DENSE/source/io/ezxml/ezxml.h
 sim/stoch/rejection_based_simulation.hpp
 DENSE/source/sim/stoch/rejection_based_simulation.hpp
+sim/stoch/sorting_direct_simulation.hpp
+DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 arg_parse.hpp
 DENSE/source/arg_parse.hpp
 chrono
@@ -653,6 +657,8 @@ ngraph/ngraph_components.hpp
 DENSE/source/sim/ngraph/ngraph_components.hpp
 vector
 -
+cmath
+-
 iostream
 -
 initializer_list
@@ -664,6 +670,8 @@ chrono
 type_traits
 -
 utility
+-
+chrono
 -
 
 DENSE/source/sim/cell_param.hpp
@@ -917,6 +925,30 @@ cmath
 -
 set
 -
+
+DENSE/source/sim/stoch/sorting_direct_simulation.hpp
+sim/base.hpp
+DENSE/source/sim/stoch/sim/base.hpp
+core/parameter_set.hpp
+DENSE/source/sim/stoch/core/parameter_set.hpp
+core/model.hpp
+DENSE/source/sim/stoch/core/model.hpp
+core/specie.hpp
+DENSE/source/sim/stoch/core/specie.hpp
+sim/cell_param.hpp
+DENSE/source/sim/stoch/sim/cell_param.hpp
+core/reaction.hpp
+DENSE/source/sim/stoch/core/reaction.hpp
+vector
+-
+set
+-
+queue
+-
+random
+-
+reactions_list.hpp
+DENSE/source/sim/stoch/reactions_list.hpp
 
 DENSE/source/utility/common_utils.hpp
 core/specie.hpp

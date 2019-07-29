@@ -48,6 +48,7 @@ CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/st
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/utility/configurable.hpp
 CMakeFiles/scale_experiment.dir/Scale_Experiment/main.cpp.o: DENSE/source/utility/cuda.hpp

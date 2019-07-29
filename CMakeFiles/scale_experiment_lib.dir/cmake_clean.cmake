@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
   "CMakeFiles/scale_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
   "CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
+  "CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
   "CMakeFiles/scale_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
   "libscale_experiment_lib.pdb"
   "libscale_experiment_lib.a"

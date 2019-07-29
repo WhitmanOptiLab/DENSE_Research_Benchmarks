@@ -1181,6 +1181,48 @@ DENSE/source/sim/stoch/rejection_based_simulation.cpp.s:
 	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
 .PHONY : DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
 
+DENSE/source/sim/stoch/sorting_direct_simulation.o: DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+
+.PHONY : DENSE/source/sim/stoch/sorting_direct_simulation.o
+
+# target to build an object file
+DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o:
+	$(MAKE) -f CMakeFiles/oscillating_experiment_lib.dir/build.make CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/exponential_experiment_lib.dir/build.make CMakeFiles/exponential_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/skew_experiment_lib.dir/build.make CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/overhead_experiment_lib.dir/build.make CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+.PHONY : DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+
+DENSE/source/sim/stoch/sorting_direct_simulation.i: DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+
+.PHONY : DENSE/source/sim/stoch/sorting_direct_simulation.i
+
+# target to preprocess a source file
+DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i:
+	$(MAKE) -f CMakeFiles/oscillating_experiment_lib.dir/build.make CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/exponential_experiment_lib.dir/build.make CMakeFiles/exponential_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/skew_experiment_lib.dir/build.make CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/overhead_experiment_lib.dir/build.make CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+.PHONY : DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+
+DENSE/source/sim/stoch/sorting_direct_simulation.s: DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+
+.PHONY : DENSE/source/sim/stoch/sorting_direct_simulation.s
+
+# target to generate assembly for a file
+DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s:
+	$(MAKE) -f CMakeFiles/oscillating_experiment_lib.dir/build.make CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/exponential_experiment_lib.dir/build.make CMakeFiles/exponential_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/skew_experiment_lib.dir/build.make CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/overhead_experiment_lib.dir/build.make CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/scale_experiment_lib.dir/build.make CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+	$(MAKE) -f CMakeFiles/density_experiment_lib.dir/build.make CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+.PHONY : DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+
 DENSE/source/sim/stoch/stoch.o: DENSE/source/sim/stoch/stoch.cpp.o
 
 .PHONY : DENSE/source/sim/stoch/stoch.o
@@ -1624,6 +1666,9 @@ help:
 	@echo "... DENSE/source/sim/stoch/rejection_based_simulation.o"
 	@echo "... DENSE/source/sim/stoch/rejection_based_simulation.i"
 	@echo "... DENSE/source/sim/stoch/rejection_based_simulation.s"
+	@echo "... DENSE/source/sim/stoch/sorting_direct_simulation.o"
+	@echo "... DENSE/source/sim/stoch/sorting_direct_simulation.i"
+	@echo "... DENSE/source/sim/stoch/sorting_direct_simulation.s"
 	@echo "... DENSE/source/sim/stoch/stoch.o"
 	@echo "... DENSE/source/sim/stoch/stoch.i"
 	@echo "... DENSE/source/sim/stoch/stoch.s"

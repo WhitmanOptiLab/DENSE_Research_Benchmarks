@@ -45,27 +45,48 @@ int main(int argc, char* argv[]){
     return EXIT_FAILURE;
   }
   
-  std::cout << style::apply(Color::yellow) << "Starting the Fast Gillespie Simulation\n" << style::reset();
-  simulate_experiment<Fast_Gillespie_Direct_Simulation>(ac, av, &args, "Skew_Experiment/Fast_Gillespie_Skew");
-  std::cout << style::apply(Color::yellow) << "Finished the Fast Gillespie Simulation\n\n";
-
-  std::cout << "Starting the Gillespie Direct Simulation\n" << style::reset();
-  simulate_experiment<Stochastic_Simulation>(ac, av, &args, "Skew_Experiment/Gillespie_Direct_Skew");
-  std::cout << style::apply(Color::yellow) << "Finished the Gillespie Direct Simulation\n\n";
+  csvw performance_out("performance/Skew_performance.csv");
+  std::vector<std::vector<Real>> perf;
+  std::string perf_sims = ",";
   
-  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
-  simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Skew_Experiment/Anderson_Skew");
-  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
+  std::cout << style::apply(Color::yellow) << "Starting the Fast Gillespie Simulation\n" << style::reset();
+  perf.push_back(simulate_experiment<Fast_Gillespie_Direct_Simulation>(ac, av, &args, "Fast_Gillespie_Skew"));
+  std::cout << style::apply(Color::yellow) << "Finished the Fast Gillespie Simulation\n\n";
+  perf_sims += "Fast Gillespie,";
+  
+  std::cout << "Starting the Gillespie Direct Simulation\n" << style::reset();
+  perf.push_back(simulate_experiment<Stochastic_Simulation>(ac, av, &args, "Gillespie_Direct_Skew"));
+  std::cout << style::apply(Color::yellow) << "Finished the Gillespie Direct Simulation\n\n";
+  perf_sims += "Gillespie Direct,";
   
   std::cout << "Starting the Rejection Based Simulation\n" << style::reset();
-  simulate_experiment<Rejection_Based_Simulation>(ac, av, &args, "Skew_Experiment/Rejection_Based_Skew");
-  std::cout << style::apply(Color::yellow) << "Finished the Rejection Based Simulation\n\n" << style::reset();
+  perf.push_back(simulate_experiment<Rejection_Based_Simulation>(ac, av, &args, "Rejection_Based_Skew"));
+  std::cout << style::apply(Color::yellow) << "Finished the Rejection Based Simulation\n\n";
+  perf_sims += "Rejection,";
   
-  
+//  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
+//  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Skew"));
+//  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
+//  perf_sims += "Anderson Next Reaction,";
+//  
 //  std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
-  //simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Skew_Experiment/Next_Reaction_Skew");
-//  std::cout << style::apply(Color::red) << "Error: could not run\n" << style::reset();
-//  std::cout << style::apply(Color::yellow) << "Finished the Next Reaction Simulation\n" << style::reset();
+//  perf.push_back(simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Next_Reaction_Skew"));
+//  std::cout << style::apply(Color::yellow) << "Finished the Next Reaction Simulation\n\n";
+//  perf_sims += "Next Reaction,";
+  
+  std::cout << "Starting the Sorting Direct Simulation\n" << style::reset();
+  perf.push_back(simulate_experiment<Sorting_Direct_Simulation>(ac, av, &args, "Sorting_Direct_Skew"));
+  std::cout << style::apply(Color::yellow) << "Finished the Sorting Direct Simulation\n\n" << style::reset();
+  perf_sims += "Sorting Direct,";
+  
+  performance_out << perf_sims + "\n";
+  for(int j = 0; (unsigned)j < perf[0].size(); ++j){
+    performance_out << "Time " << j << ",";
+    for(int i = 0; (unsigned)i < perf.size(); i++){
+      performance_out.add_data(perf[i][j]);
+    }
+    performance_out << "\n";
+  }
 }
 
 //PARAMS USING: ./skew_experiment -p Skew_Experiment/param_sets.csv -e " " -d Skew_Experiment/init_conc.csv -t 10 -u 1.0 -c 100 -w 1 -s 1.0

@@ -48,6 +48,7 @@ CMakeFiles/oscillating_experiment.dir/Oscillating_Experiment/main.cpp.o: DENSE/s
 CMakeFiles/oscillating_experiment.dir/Oscillating_Experiment/main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/oscillating_experiment.dir/Oscillating_Experiment/main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/oscillating_experiment.dir/Oscillating_Experiment/main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/oscillating_experiment.dir/Oscillating_Experiment/main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 CMakeFiles/oscillating_experiment.dir/Oscillating_Experiment/main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/oscillating_experiment.dir/Oscillating_Experiment/main.cpp.o: DENSE/source/utility/configurable.hpp
 CMakeFiles/oscillating_experiment.dir/Oscillating_Experiment/main.cpp.o: DENSE/source/utility/cuda.hpp

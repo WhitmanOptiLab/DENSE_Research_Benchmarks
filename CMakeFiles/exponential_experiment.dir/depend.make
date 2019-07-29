@@ -48,6 +48,7 @@ CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o: DENSE/s
 CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
 CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o: DENSE/source/utility/configurable.hpp
 CMakeFiles/exponential_experiment.dir/Exponential_Experiment/main.cpp.o: DENSE/source/utility/cuda.hpp

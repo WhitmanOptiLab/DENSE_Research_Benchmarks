@@ -127,6 +127,7 @@ CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/random_selector.hpp
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.hpp
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rxn_struct.hpp
+ /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.hpp
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/common_utils.hpp
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/style.hpp
  DENSE/source/core/model.hpp
@@ -343,6 +344,28 @@ CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simula
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.cpp
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.hpp
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rxn_struct.hpp
+ DENSE/source/core/model.hpp
+ DENSE/source/core/parameter_set.hpp
+ DENSE/source/core/reaction.hpp
+ DENSE/source/core/specie.hpp
+ DENSE/source/ngraph/equivalence.hpp
+ DENSE/source/ngraph/ngraph.hpp
+ DENSE/source/ngraph/ngraph_components.hpp
+ DENSE/source/ngraph/set_ops.hpp
+ DENSE/source/sim/base.hpp
+ DENSE/source/sim/cell_param.hpp
+ DENSE/source/sim/cell_param.ipp
+ DENSE/source/utility/common_utils.hpp
+ DENSE/source/utility/configurable.hpp
+ DENSE/source/utility/cuda.hpp
+ DENSE/source/utility/numerics.hpp
+ DENSE/source/utility/preprocessor.hpp
+ Skew_Experiment/model_impl.hpp
+ Skew_Experiment/reactions_list.hpp
+ Skew_Experiment/specie_list.hpp
+CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+ /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+ /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.hpp
  DENSE/source/core/model.hpp
  DENSE/source/core/parameter_set.hpp
  DENSE/source/core/reaction.hpp

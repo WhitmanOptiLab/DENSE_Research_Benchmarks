@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/skew_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
   "CMakeFiles/skew_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
   "CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
+  "CMakeFiles/skew_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
   "CMakeFiles/skew_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
   "libskew_experiment_lib.pdb"
   "libskew_experiment_lib.a"
