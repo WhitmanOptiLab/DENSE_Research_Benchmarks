@@ -11,7 +11,7 @@
 #include "Sim_Builder.hpp"
 #include "run_simulation.hpp"
 #include "arg_parse.hpp"
-#include "../simulate_experiment.hpp"
+#include "../experiments_utility.hpp"
 using style::Color;
 
 #include <chrono>
@@ -44,7 +44,6 @@ int main(int argc, char* argv[]){
   if(args.help == 2){
     return EXIT_FAILURE;
   }
-  csvw performance_out("performance/Oscillating_performance.csv");
   std::vector<std::vector<Real>> perf;
   std::string perf_sims = ",";
   
@@ -57,36 +56,28 @@ int main(int argc, char* argv[]){
   perf.push_back(simulate_experiment<Stochastic_Simulation>(ac, av, &args, "Gillespie_Direct_Oscillating"));
   std::cout << style::apply(Color::yellow) << "Finished the Gillespie Direct Simulation\n\n";
   perf_sims += "Gillespie Direct,";
-  
-//  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
-//  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Oscillating"));
-//  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
-//  perf_sims += "Anderson Next Reaction,";
-  
+
   std::cout << "Starting the Rejection Based Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Rejection_Based_Simulation>(ac, av, &args, "Rejection_Based_Oscillating"));
   std::cout << style::apply(Color::yellow) << "Finished the Rejection Based Simulation\n\n";
   perf_sims += "Rejection,";
   
-//  std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
-//  perf.push_back(simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Next_Reaction_Oscillating"));
-//  std::cout << style::apply(Color::yellow) << "Finished the Next Reaction Simulation\n\n";
-//  perf_sims += "Next Reaction,";
+//  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
+//  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Oscillating"));
+//  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
+//  perf_sims += "Anderson Next Reaction,";
+// 
+  std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
+  perf.push_back(simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Next_Reaction_Oscillating"));
+  std::cout << style::apply(Color::yellow) << "Finished the Next Reaction Simulation\n\n";
+  perf_sims += "Next Reaction,";
   
   std::cout << "Starting the Sorting Direct Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Sorting_Direct_Simulation>(ac, av, &args, "Sorting_Direct_Oscillating"));
   std::cout << style::apply(Color::yellow) << "Finished the Sorting Direct Simulation\n\n" << style::reset();
   perf_sims += "Sorting Direct,";
   
-  
-  performance_out << perf_sims + "\n";
-  for(int j = 0; (unsigned)j < perf[0].size(); ++j){
-    performance_out << "Time " << j << ",";
-    for(int i = 0; (unsigned)i < perf.size(); i++){
-      performance_out.add_data(perf[i][j]);
-    }
-    performance_out << "\n";
-  }
+  performance_out("Oscillating", perf, perf_sims);
 }
 
 //PARAMS USING: ./oscillating_experiment -p Oscillating_Experiment/param_sets.csv -d Oscillating_Experiment/init_conc.csv -e " " -t 10 -u 1.0 -c 100 -w 1 -s 1.0

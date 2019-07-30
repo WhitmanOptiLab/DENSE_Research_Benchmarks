@@ -1,0 +1,41 @@
+
+# This file can be used as a template for user-created/modified analysis inputs in the context of this particular model for these particular command-line arguments.
+# The row after next MUST remain in the file in order for it to be parsable by the CSV reader. They indicate the following:
+cell-total, time-start, time-col, cell-start, cell-end, specie-option,
+10,0,0,0,10,1,1,1,1,
+
+specie1,specie2,specie3,specie4,
+5,5,5,5,
+5,5,5,5,
+5,5,5,5,
+5,5,5,5,
+5,5,5,5,
+5,5,5,5,
+5,5,5,5,
+5,5,5,5,
+5,5,5,5,
+5,5,5,5,
+
+5,4,7,6,
+5,1,5,17,
+6,5,4,5,
+5,4,7,6,
+6,5,4,5,
+6,4,7,5,
+5,4,8,5,
+6,5,5,4,
+6,5,4,5,
+6,5,4,5,
+
+5,2,7,12,
+5,0,7,18,
+6,5,4,5,
+6,4,7,5,
+6,5,4,5,
+6,4,7,5,
+6,4,9,3,
+6,5,5,4,
+6,5,4,5,
+6,5,4,5,
+
+# Showing cells 0-10 until inf min

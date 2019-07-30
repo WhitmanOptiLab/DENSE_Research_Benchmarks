@@ -9,7 +9,7 @@ int main(){
   
   std::cout << red << "STARTING SKEW EXPERIMENT\n\n";
   
-  std::string skew = "./skew_experiment -p Skew_Experiment/param_sets.csv -e " " -d Skew_Experiment/init_conc.csv -t 10 -u 1.0 -c 10 -w 1";
+  std::string skew = "./skew_experiment -p Skew_Experiment/param_sets.csv -e " " -d Skew_Experiment/init_conc.csv -t 10 -u 1.0 -c 10 -w 1 -r -2052489570";
   int skew_exp = system(skew.c_str());
   if(skew_exp == 0){num_passed += 1;}
   
