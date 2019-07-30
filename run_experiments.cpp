@@ -9,25 +9,25 @@ int main(){
   
   std::cout << red << "STARTING SKEW EXPERIMENT\n\n";
   
-  std::string skew = "./skew_experiment -p Skew_Experiment/param_sets.csv -e " " -d Skew_Experiment/init_conc.csv -t 10 -u 1.0 -c 10 -w 1 -r -2052489570";
+  std::string skew = "./skew_experiment -p Skew_Experiment/param_sets.csv -e " " -d Skew_Experiment/init_conc.csv -t 10 -u 1.0 -c 50 -w 1";
   int skew_exp = system(skew.c_str());
   if(skew_exp == 0){num_passed += 1;}
   
   std::cout << red << "STARTING DENSITY EXPERIMENT\n\n";
   
-  std::string density = "./density_experiment -e " " -d Density_Experiment/init_conc.csv -p Density_Experiment/param_sets.csv -t 10 -u 1.0 -c 10 -w 3";
+  std::string density = "./density_experiment -e " " -d Density_Experiment/init_conc.csv -p Density_Experiment/param_sets.csv -t 10 -u 1.0 -c 100 -w 3";
   int den_exp = system(density.c_str());
   if(den_exp == 0){num_passed += 1;}
   
   std::cout << red << "STARTING EXPONENTIAL EXPERIMENT\n\n";
   
-  std::string exp = "./exponential_experiment -p Exponential_Experiment/param_sets.csv -e " " -d Exponential_Experiment/init_conc.csv -t 10 -u 1.0 -c 10 -w 1";
+  std::string exp = "./exponential_experiment -p Exponential_Experiment/param_sets.csv -e " " -d Exponential_Experiment/init_conc.csv -t 10 -u 1.0 -c 100 -w 1";
   int exp_exp = system(exp.c_str());
   if(exp_exp == 0){num_passed += 1;}
   
   std::cout << red << "STARTING OSCILLATING EXPERIMENT\n\n";
   
-  std::string oscillating = "./oscillating_experiment -p Oscillating_Experiment/param_sets.csv -d Oscillating_Experiment/init_conc.csv -e " " -t 10 -u 1.0 -c 10 -w 1";
+  std::string oscillating = "./oscillating_experiment -p Oscillating_Experiment/param_sets.csv -d Oscillating_Experiment/init_conc.csv -e " " -t 10 -u 1.0 -c 100 -w 1";
   int osc_exp = system(oscillating.c_str());
   if(osc_exp == 0){num_passed += 1;}
   
@@ -39,7 +39,7 @@ int main(){
   
   std::cout << red << "STARTING SCALE EXPERIMENT\n\n";
   
-  std::string scale = "./scale_experiment -p Scale_Experiment/param_sets.csv -e " " -d Scale_Experiment/init_conc.csv -t 10 -u 1.0 -c 10 -w 1";
+  std::string scale = "./scale_experiment -p Scale_Experiment/param_sets.csv -e " " -d Scale_Experiment/init_conc.csv -t 10 -u 1.0 -c 1000 -w 1";
   int sca_exp = system(scale.c_str());
   if(sca_exp == 0){num_passed += 1;}
   

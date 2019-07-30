@@ -68,5 +68,11 @@ RATETYPE reaction<reaction1>::active_rate(const Ctxt& c) {
     return c.getRate(reaction1);
 }
 
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction2>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction2);
+}
+
 
 #endif // MODEL_IMPL_H

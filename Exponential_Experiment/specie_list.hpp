@@ -21,6 +21,8 @@ SPECIE(specie1)
 SPECIE(specie2)
 SPECIE(specie3)
 SPECIE(specie4)
+SPECIE(specie5)
+SPECIE(specie6)
 
 #ifdef UNDO_CRITICAL_SPECIE_DEF
 #undef CRITICAL_SPECIE

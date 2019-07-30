@@ -58,8 +58,9 @@ int main(int argc, char* argv[]){
   std::vector<std::vector<Real>> perf;
   std::string perf_sims = ",";
   int cell_total = args.adj_graph.num_vertices();
-  
   args.adj_graph = std::move(create_dense_graph(cell_total));
+  
+  
   std::cout << style::apply(Color::yellow) << "Starting the Fast Gillespie Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Fast_Gillespie_Direct_Simulation>(ac, av, &args, "Fast_Gillespie_Density"));
   std::cout << style::apply(Color::yellow) << "Finished the Fast Gillespie Simulation\n\n";
@@ -75,10 +76,10 @@ int main(int argc, char* argv[]){
   std::cout << style::apply(Color::yellow) << "Finished the Rejection Based Simulation\n\n";
   perf_sims += "Rejection,";
   
-//  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
-//  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Density"));
-//  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
-//  perf_sims += "Anderson Next Reaction,";
+  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
+  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Density"));
+  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
+  perf_sims += "Anderson Next Reaction,";
 //
   std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Next_Reaction_Density"));
