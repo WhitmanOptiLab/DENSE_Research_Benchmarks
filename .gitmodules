@@ -2,3 +2,6 @@
 	path = DENSE
 	url = https://github.com/johnastratton/DENSE.git
 	branch = expiriments
+[submodule "DENSE1"]
+	path = DENSE1
+	url = https://github.com/johnastratton/DENSE.git
