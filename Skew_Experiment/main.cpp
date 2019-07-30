@@ -33,6 +33,14 @@ using dense::parse_analysis_entries;
 using dense::Static_Args;
 using dense::run_simulation;
 
+NGraph::Graph create_undense_graph(dense::Natural cell_total){
+  NGraph::Graph undense_graph;
+  for(dense::Natural cell = 0; cell < cell_total; cell++){
+    undense_graph.insert_vertex(cell);
+  }
+  return undense_graph;
+}
+
 int main(int argc, char* argv[]){
   int ac = argc;
   char** av = argv;
@@ -47,6 +55,8 @@ int main(int argc, char* argv[]){
   
   std::vector<std::vector<Real>> perf;
   std::string perf_sims = ",";
+  int cell_total = args.adj_graph.num_vertices();
+  args.adj_graph = std::move(create_undense_graph(cell_total));
   
   std::cout << style::apply(Color::yellow) << "Starting the Fast Gillespie Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Fast_Gillespie_Direct_Simulation>(ac, av, &args, "Fast_Gillespie_Skew"));
@@ -63,11 +73,11 @@ int main(int argc, char* argv[]){
   std::cout << style::apply(Color::yellow) << "Finished the Rejection Based Simulation\n\n";
   perf_sims += "Rejection,";
   
-//  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
-//  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Skew"));
-//  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
-//  perf_sims += "Anderson Next Reaction,";
-//  
+  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
+  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Skew"));
+  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
+  perf_sims += "Anderson Next Reaction,";
+  
   std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Next_Reaction_Skew"));
   std::cout << style::apply(Color::yellow) << "Finished the Next Reaction Simulation\n\n";

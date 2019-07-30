@@ -62,10 +62,10 @@ int main(int argc, char* argv[]){
   std::cout << style::apply(Color::yellow) << "Finished the Rejection Based Simulation\n\n";
   perf_sims += "Rejection,";
 
-//  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
-//  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Exponential"));
-//  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
-//  perf_sims += "Anderson Next Reaction,";
+  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
+  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Exponential"));
+  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
+  perf_sims += "Anderson Next Reaction,";
 //
   std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Next_Reaction_Exponential"));

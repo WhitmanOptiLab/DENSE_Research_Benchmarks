@@ -65,43 +65,49 @@ RATETYPE reaction<ph1_degradation>::active_rate(const Ctxt& c) const {
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction1>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction1)+c.getCon(specie1)-c.getCon(specie2);
+    return c.getRate(reaction1);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction2>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction2)+c.getCon(specie4)-c.getCon(specie1);
+    return c.getRate(reaction2);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction3>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction3)+c.getCon(specie2)-c.getCon(specie1)-c.getCon(specie3);
+    return c.getRate(reaction3);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction4>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction4)+c.getCon(specie1)+c.getCon(specie3)-c.getCon(specie4);
+    return c.getRate(reaction4);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction5>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction5)+c.getCon(specie4)-c.getCon(specie3);
+    return c.getRate(reaction5);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction6>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction6)+c.getCon(specie1)+c.getCon(specie2)+c.getCon(specie3)+c.getCon(specie4);
+    return c.getRate(reaction6);
 }
 
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction7>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction7)+c.getCon(specie1)+c.getCon(specie2)+c.getCon(specie3)+c.getCon(specie4);
+    return c.getCon(specie4);
+}
+
+template<>
+template<class Ctxt>
+RATETYPE reaction<reaction8>::active_rate(const Ctxt& c) {
+    return c.getRate(reaction8);
 }
 
 
