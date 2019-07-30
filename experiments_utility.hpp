@@ -17,7 +17,6 @@
 #include "io/ezxml/ezxml.h"
 #include "arg_parse.hpp"
 #include "parse_analysis_entries.hpp"
-#include "../simulate_experiment.hpp"
 
 using dense::run_simulation;
 using dense::Sim_Builder;
@@ -37,6 +36,19 @@ std::vector<Real> simulate_experiment(int ac, char** av, Static_Args* args, std:
   std::vector<std::vector<Real>> perf = run_simulation<Simulation>(args->simulation_duration, args->analysis_interval, std::move(sim.get_simulations(args->param_sets)), std::move(names_and_analysis));
   
   return perf.back();
+}
+
+void performance_out(std::string type, std::vector<std::vector<Real>> perf, std::string perf_sims){
+  csvw performance_out("performance/" + type + "_performance.csv");
+  
+  performance_out << perf_sims + "\n";
+  for(int j = 0; (unsigned)j < perf[0].size(); ++j){
+    performance_out << "Time " << j << ",";
+    for(int i = 0; (unsigned)i < perf.size(); i++){
+      performance_out.add_data(perf[i][j]);
+    }
+    performance_out << "\n";
+  }
 }
 
 #endif

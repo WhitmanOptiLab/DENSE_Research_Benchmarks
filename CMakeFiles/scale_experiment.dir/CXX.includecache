@@ -33,8 +33,8 @@ run_simulation.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/Scale_Experiment/run_simulation.hpp
 arg_parse.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/Scale_Experiment/arg_parse.hpp
-../simulate_experiment.hpp
-/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/simulate_experiment.hpp
+../experiments_utility.hpp
+/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/experiments_utility.hpp
 chrono
 -
 cstdlib
@@ -68,7 +68,7 @@ sim/base.hpp
 cstddef
 -
 
-/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/simulate_experiment.hpp
+/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/experiments_utility.hpp
 io/arg_parse.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/io/arg_parse.hpp
 measurement/oscillation.hpp
@@ -101,8 +101,6 @@ arg_parse.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/arg_parse.hpp
 parse_analysis_entries.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/parse_analysis_entries.hpp
-../simulate_experiment.hpp
-/home/mcclelnr/BENCHMARK_DENSE/simulate_experiment.hpp
 
 DENSE/source/Sim_Builder.hpp
 io/arg_parse.hpp
