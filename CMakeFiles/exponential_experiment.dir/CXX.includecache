@@ -751,8 +751,6 @@ sim/cell_param.hpp
 DENSE/source/sim/stoch/sim/cell_param.hpp
 core/reaction.hpp
 DENSE/source/sim/stoch/core/reaction.hpp
-indexed_priority_queue.hpp
-DENSE/source/sim/stoch/indexed_priority_queue.hpp
 vector
 -
 set

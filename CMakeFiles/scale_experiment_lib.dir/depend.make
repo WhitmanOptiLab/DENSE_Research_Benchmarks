@@ -269,8 +269,6 @@ CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simu
 
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.hpp
-CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/completetree.hpp
-CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_priority_queue.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/core/model.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/core/parameter_set.hpp
 CMakeFiles/scale_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/core/reaction.hpp

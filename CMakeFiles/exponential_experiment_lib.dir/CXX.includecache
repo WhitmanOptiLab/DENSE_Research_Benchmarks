@@ -927,6 +927,8 @@ cmath
 -
 set
 -
+vector
+-
 reactions_list.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/reactions_list.hpp
 reactions_list.hpp
@@ -947,8 +949,6 @@ sim/cell_param.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sim/cell_param.hpp
 core/reaction.hpp
 /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/core/reaction.hpp
-indexed_priority_queue.hpp
-/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/indexed_priority_queue.hpp
 vector
 -
 set

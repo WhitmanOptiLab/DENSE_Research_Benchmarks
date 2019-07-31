@@ -270,8 +270,6 @@ CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_S
 CMakeFiles/overhead_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
  /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.hpp
- /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/completetree.hpp
- /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/indexed_priority_queue.hpp
  DENSE/source/core/model.hpp
  DENSE/source/core/parameter_set.hpp
  DENSE/source/core/reaction.hpp
