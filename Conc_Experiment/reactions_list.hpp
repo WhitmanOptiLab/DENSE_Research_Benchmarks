@@ -16,12 +16,6 @@ Declare reactions in `reactions_list.hpp`. List the reaction names between the t
 
 REACTION(reaction1)
 REACTION(reaction2)
-REACTION(reaction3)
-REACTION(reaction4)
-REACTION(reaction5)
-REACTION(reaction6)
-REACTION(reaction7)
-REACTION(reaction8)
 
 #ifdef UNDO_DELAY_REACTION_DEF
 #undef DELAY_REACTION 

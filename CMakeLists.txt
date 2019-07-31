@@ -35,7 +35,7 @@ MAKE_EXPERIMENTS(density_experiment ${CMAKE_SOURCE_DIR}/Density_Experiment)
 
 MAKE_EXPERIMENTS(overhead_experiment ${CMAKE_SOURCE_DIR}/Overhead_Experiment)
 
-MAKE_EXPERIMENTS(skew_experiment ${CMAKE_SOURCE_DIR}/Skew_Experiment)
+MAKE_EXPERIMENTS(conc_experiment ${CMAKE_SOURCE_DIR}/Conc_Experiment)
 
 MAKE_EXPERIMENTS(exponential_experiment ${CMAKE_SOURCE_DIR}/Exponential_Experiment)
 

@@ -74,41 +74,5 @@ RATETYPE reaction<reaction2>::active_rate(const Ctxt& c) {
     return c.getRate(reaction2);
 }
 
-template<>
-template<class Ctxt>
-RATETYPE reaction<reaction3>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction3);
-}
-
-template<>
-template<class Ctxt>
-RATETYPE reaction<reaction4>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction4);
-}
-
-template<>
-template<class Ctxt>
-RATETYPE reaction<reaction5>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction5);
-}
-
-template<>
-template<class Ctxt>
-RATETYPE reaction<reaction6>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction6);
-}
-
-template<>
-template<class Ctxt>
-RATETYPE reaction<reaction7>::active_rate(const Ctxt& c) {
-    return c.getCon(specie4);
-}
-
-template<>
-template<class Ctxt>
-RATETYPE reaction<reaction8>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction8);
-}
-
 
 #endif // MODEL_IMPL_H

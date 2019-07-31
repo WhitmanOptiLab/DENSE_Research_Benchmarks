@@ -56,7 +56,7 @@ int main(int argc, char* argv[]){
     return EXIT_FAILURE;
   }
   std::vector<std::vector<Real>> perf;
-  std::string perf_sims = ",";
+  std::string perf_sims = "";
   int cell_total = args.adj_graph.num_vertices();
   args.adj_graph = std::move(create_dense_graph(cell_total));
   

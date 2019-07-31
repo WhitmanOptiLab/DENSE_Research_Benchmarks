@@ -26,6 +26,8 @@ REACTION(reaction9)
 REACTION(reaction10)
 REACTION(reaction11)
 REACTION(reaction12)
+REACTION(reaction13)
+REACTION(reaction14)
 
 #ifdef UNDO_DELAY_REACTION_DEF
 #undef DELAY_REACTION 
