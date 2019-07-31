@@ -40,12 +40,15 @@ std::vector<Real> simulate_experiment(int ac, char** av, Static_Args* args, std:
 
 void performance_out(std::string type, std::vector<std::vector<Real>> perf, std::string perf_sims){
   csvw performance_out("performance/" + type + "_performance.csv");
-  
+  perf_sims = perf_sims.substr(0,perf_sims.size()-1);
   performance_out << perf_sims + "\n";
   for(int j = 0; (unsigned)j < perf[0].size(); ++j){
-    performance_out << "Time " << j << ",";
     for(int i = 0; (unsigned)i < perf.size(); i++){
-      performance_out.add_data(perf[i][j]);
+      performance_out << perf[i][j];
+      if(i + 1 == perf.size()){
+      } else {
+        performance_out << ",";
+      }
     }
     performance_out << "\n";
   }

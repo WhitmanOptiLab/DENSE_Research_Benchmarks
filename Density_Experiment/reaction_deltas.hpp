@@ -18,7 +18,7 @@ The proper way to define that reaction's state change vector is as follows:
 */
 
 STATIC_VAR int num_deltas_reaction1 = 1;
-STATIC_VAR int deltas_reaction1[] = {-1};
+STATIC_VAR int deltas_reaction1[] = {1};
 STATIC_VAR specie_id delta_ids_reaction1[] = {specie1};
 
 STATIC_VAR int num_deltas_reaction2 = 1;

@@ -71,7 +71,7 @@ RATETYPE reaction<reaction1>::active_rate(const Ctxt& c) {
 template<>
 template<class Ctxt>
 RATETYPE reaction<reaction2>::active_rate(const Ctxt& c) {
-    return c.getRate(reaction2);
+    return c.getRate(reaction2) * c.getCon(specie1);
 }
 
 

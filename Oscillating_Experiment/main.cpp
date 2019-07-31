@@ -45,7 +45,7 @@ int main(int argc, char* argv[]){
     return EXIT_FAILURE;
   }
   std::vector<std::vector<Real>> perf;
-  std::string perf_sims = ",";
+  std::string perf_sims = "";
   
   std::cout << style::apply(Color::yellow) << "Starting the Fast Gillespie Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Fast_Gillespie_Direct_Simulation>(ac, av, &args, "Fast_Gillespie_Oscillating"));

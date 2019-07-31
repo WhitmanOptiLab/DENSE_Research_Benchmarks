@@ -54,7 +54,7 @@ STATIC_VAR int deltas_reaction9[] = {1};
 STATIC_VAR specie_id delta_ids_reaction9[] = {specie5};
 
 STATIC_VAR int num_deltas_reaction10 = 1;
-STATIC_VAR int deltas_reaction10[] = {1};
+STATIC_VAR int deltas_reaction10[] = {-1};
 STATIC_VAR specie_id delta_ids_reaction10[] = {specie5};
 
 STATIC_VAR int num_deltas_reaction11 = 1;
@@ -62,5 +62,13 @@ STATIC_VAR int deltas_reaction11[] = {1};
 STATIC_VAR specie_id delta_ids_reaction11[] = {specie6};
 
 STATIC_VAR int num_deltas_reaction12 = 1;
-STATIC_VAR int deltas_reaction12[] = {1};
+STATIC_VAR int deltas_reaction12[] = {-1};
 STATIC_VAR specie_id delta_ids_reaction12[] = {specie6};
+
+STATIC_VAR int num_deltas_reaction13 = 1;
+STATIC_VAR int deltas_reaction13[] = {1};
+STATIC_VAR specie_id delta_ids_reaction13[] = {specie7};
+
+STATIC_VAR int num_deltas_reaction14 = 1;
+STATIC_VAR int deltas_reaction14[] = {-1};
+STATIC_VAR specie_id delta_ids_reaction14[] = {specie7};

@@ -23,6 +23,7 @@ SPECIE(specie3)
 SPECIE(specie4)
 SPECIE(specie5)
 SPECIE(specie6)
+SPECIE(specie7)
 
 #ifdef UNDO_CRITICAL_SPECIE_DEF
 #undef CRITICAL_SPECIE
