@@ -8,7 +8,7 @@ int main(){
   int num_passed = 0;
   
   std::cout << red << "STARTING SMALL CONCENTRATIONS EXPERIMENT\n\n";
-  std::string conc = "./conc_experiment -p Conc_Experiment/param_sets.csv -e " " -d Conc_Experiment/init_conc.csv -t 100 -u 100 -c 10 -w 1";
+  std::string conc = "./conc_experiment -p Conc_Experiment/param_sets.csv -e " " -d Conc_Experiment/init_conc.csv -t 2000 -u 2000 -c 500 -w 1";
   int conc_exp = system(conc.c_str());
   if(conc_exp == 0){num_passed += 1;}
   
@@ -38,9 +38,10 @@ int main(){
   
   std::cout << red << "STARTING SCALE EXPERIMENT\n\n";
   
-  std::string scale = "./scale_experiment -p Scale_Experiment/param_sets.csv -e " " -d Scale_Experiment/init_conc.csv -t 10 -u 10 -c 1000 -w 1";
+  std::string scale = "./scale_experiment -p Scale_Experiment/param_sets.csv -e " " -d Scale_Experiment/init_conc.csv -t 10 -u 10 -c 20 -w 1";
   int sca_exp = system(scale.c_str());
   if(sca_exp == 0){num_passed += 1;}
+  
   
   std::cout << red << "Passed: " << num_passed << " / " << 6 << std::endl << reset;
   if(num_passed != 6){
@@ -80,6 +81,7 @@ int main(){
   
   graph = "python3 graphmaker.py \"performance/Scale_performance.csv\" \"Scale\"";
   system(graph.c_str());
-  
+
+
   return num_passed;
 }
