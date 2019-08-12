@@ -13,6 +13,7 @@
 #include "sim/stoch/fast_gillespie_direct_simulation.hpp"
 #include "sim/stoch/next_reaction_simulation.hpp"
 #include "sim/stoch/sorting_direct_simulation.hpp"
+#include "sim/stoch/log_direct_method.hpp"
 #include "model_impl.hpp"
 #include "io/ezxml/ezxml.h"
 #include "arg_parse.hpp"
@@ -35,23 +36,27 @@ std::vector<Real> simulate_experiment(int ac, char** av, Static_Args* args, std:
   }
   std::vector<std::vector<Real>> perf = run_simulation<Simulation>(args->simulation_duration, args->analysis_interval, std::move(sim.get_simulations(args->param_sets)), std::move(names_and_analysis));
   
-  return perf.back();
+  return perf[0];
 }
 
 void performance_out(std::string type, std::vector<std::vector<Real>> perf, std::string perf_sims){
   csvw performance_out("performance/" + type + "_performance.csv");
   perf_sims = perf_sims.substr(0,perf_sims.size()-1);
   performance_out << perf_sims + "\n";
-  for(int j = 0; (unsigned)j < perf[0].size(); ++j){
-    for(int i = 0; (unsigned)i < perf.size(); i++){
-      performance_out << perf[i][j];
+  
+  //Obnoxiously primitive fix for seg fault(should be made better eventually)
+  for(int i = 0; (unsigned)i < perf.size(); i++){
+    std::cout << perf[i].size() <<'\n';
+  }
+  
+  for(int i = 0; (unsigned)i < perf.size(); i++){
+      performance_out << perf[i].at(0);
       if(i + 1 == perf.size()){
       } else {
         performance_out << ",";
       }
     }
-    performance_out << "\n";
-  }
+  performance_out << "\n";
 }
 
 #endif
