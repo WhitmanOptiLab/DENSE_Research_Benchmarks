@@ -120,13 +120,18 @@ CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENS
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/completetree.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/fast_gillespie_direct_simulation.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/heap.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/indexed_collection.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/indexed_priority_queue.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/log_direct_method.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/modifiable_heap_random_selector.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/next_reaction_simulation.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/propensity_groups.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/weightsum_tree.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/style.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: Conc_Experiment/model_impl.hpp
@@ -269,6 +274,10 @@ CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simul
 
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/completetree.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/heap.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_collection.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_priority_queue.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: Conc_Experiment/model_impl.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: Conc_Experiment/reactions_list.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: Conc_Experiment/specie_list.hpp
@@ -311,7 +320,36 @@ CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o: DENSE/source/utility/numerics.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o: DENSE/source/utility/preprocessor.hpp
 
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/completetree.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/heap.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/indexed_collection.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/log_direct_method.cpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/log_direct_method.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/modifiable_heap_random_selector.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/weightsum_tree.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: Conc_Experiment/model_impl.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: Conc_Experiment/reactions_list.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: Conc_Experiment/specie_list.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/core/model.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/core/parameter_set.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/core/reaction.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/core/specie.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/ngraph/equivalence.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/ngraph/ngraph.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/ngraph/ngraph_components.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/ngraph/set_ops.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/base.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/cell_param.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/cell_param.ipp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/common_utils.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/configurable.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/cuda.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/numerics.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/preprocessor.hpp
+
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/completetree.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/heap.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_collection.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_priority_queue.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/next_reaction_simulation.cpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/next_reaction_simulation.hpp
@@ -341,6 +379,7 @@ CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simula
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.cpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/weightsum_tree.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Conc_Experiment/model_impl.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Conc_Experiment/reactions_list.hpp
 CMakeFiles/conc_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: Conc_Experiment/specie_list.hpp

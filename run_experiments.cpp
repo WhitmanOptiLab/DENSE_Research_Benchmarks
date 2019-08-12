@@ -65,7 +65,7 @@ int main(){
   std::cout << reset;
   
 //   std::string graph = "python3 graphmaker.py \"performance/Conc_performance.csv\" \"Conc\"";
-  std::string graph = python3 graphmaker.py Exponential_performance.csv Conc_performance.csv Density_performance.csv Oscillating_performance.csv Scale_performance.csv Overhead_performance.csv "Data"
+  std::string graph = "python3 graphmaker.py \"performance/Exponential_performance.csv\" \"performance/Conc_performance.csv\" \"performance/Density_performance.csv\" \"performance/Oscillating_performance.csv\" \"performance/Scale_performance.csv\" \"performance/Overhead_performance.csv\" \"Data\" ";
   system(graph.c_str());
   
 //   graph = "python3 graphmaker.py \"performance/Density_performance.csv\" \"Density\"";

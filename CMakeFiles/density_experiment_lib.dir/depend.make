@@ -120,13 +120,18 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: D
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/completetree.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/fast_gillespie_direct_simulation.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/heap.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/indexed_collection.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/indexed_priority_queue.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/log_direct_method.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/modifiable_heap_random_selector.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/next_reaction_simulation.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/propensity_groups.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/random_selector.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/sim/stoch/weightsum_tree.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/common_utils.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/utility/style.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/core/model.hpp
@@ -269,6 +274,10 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Si
 
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/completetree.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/heap.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_collection.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_priority_queue.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/core/model.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/core/parameter_set.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/core/reaction.hpp
@@ -311,7 +320,36 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_dire
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o: Density_Experiment/reactions_list.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o: Density_Experiment/specie_list.hpp
 
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/completetree.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/heap.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/indexed_collection.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/log_direct_method.cpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/log_direct_method.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/modifiable_heap_random_selector.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/weightsum_tree.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/core/model.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/core/parameter_set.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/core/reaction.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/core/specie.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/ngraph/equivalence.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/ngraph/ngraph.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/ngraph/ngraph_components.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/ngraph/set_ops.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/base.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/cell_param.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/cell_param.ipp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/common_utils.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/configurable.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/cuda.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/numerics.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/utility/preprocessor.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: Density_Experiment/model_impl.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: Density_Experiment/reactions_list.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: Density_Experiment/specie_list.hpp
+
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/completetree.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/heap.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_collection.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/indexed_priority_queue.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/next_reaction_simulation.cpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/next_reaction_simulation.hpp
@@ -341,6 +379,7 @@ CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_sim
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.cpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/rxn_struct.hpp
+CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/weightsum_tree.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/core/model.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/core/parameter_set.hpp
 CMakeFiles/density_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/core/reaction.hpp

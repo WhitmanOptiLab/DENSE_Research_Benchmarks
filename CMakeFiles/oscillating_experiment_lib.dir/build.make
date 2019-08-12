@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks
+CMAKE_SOURCE_DIR = /home/taylorjh/Documents/DENSE_Research_Benchmarks
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks
+CMAKE_BINARY_DIR = /home/taylorjh/Documents/DENSE_Research_Benchmarks
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oscillating_experiment_lib.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/oscillating_experiment_lib.dir/flags.make
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.o: DENSE/source/core/build_once.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/core/build_once.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/core/build_once.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/core/build_once.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/core/build_once.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/core/build_once.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/core/build_once.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/core/build_once.cpp.o.pro
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.o: DENSE/source/sim/base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/base.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/base.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/base.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/base.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/base.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/base.cpp.o.provides.b
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o: DENSE/source/sim/determ/determ.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/determ/determ.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/determ/determ.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/determ/determ.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/determ/determ.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/determ/determ.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/determ/determ.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o.p
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o: DENSE/source/sim/determ/baby_cl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/determ/baby_cl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/determ/baby_cl.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/determ/baby_cl.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/determ/baby_cl.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/determ/baby_cl.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/determ/baby_cl.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o.
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o: DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o.requires:
 
@@ -177,18 +177,42 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o.provides.build: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
 
 
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires:
+
+.PHONY : CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
+
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/oscillating_experiment_lib.dir/build.make CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides.build
+.PHONY : CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides
+
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides.build: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+
+
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/next_reaction_simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/next_reaction_simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/next_reaction_simulation.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/next_reaction_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/next_reaction_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/next_reaction_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/next_reaction_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o.requires:
 
@@ -203,16 +227,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o: DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.requires:
 
@@ -227,16 +251,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_r
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o: DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.requires:
 
@@ -251,16 +275,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direc
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o: DENSE/source/sim/stoch/stoch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/stoch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/stoch.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/stoch.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/stoch.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/stoch.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/stoch.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o.requires:
 
@@ -275,16 +299,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/stoch.cpp.o.pro
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o: DENSE/source/utility/common_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/common_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/common_utils.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/common_utils.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/common_utils.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/common_utils.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/common_utils.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.o.requires:
 
@@ -299,16 +323,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/common_utils.cpp.
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.o: DENSE/source/utility/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/color.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/color.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/color.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/color.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/color.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.o.requires:
 
@@ -323,16 +347,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/color.cpp.o.provi
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o: DENSE/source/utility/preprocessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/preprocessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/preprocessor.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/preprocessor.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/preprocessor.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/utility/preprocessor.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/utility/preprocessor.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.o.requires:
 
@@ -347,16 +371,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/utility/preprocessor.cpp.
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o: DENSE/source/io/arg_parse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/arg_parse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/arg_parse.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/arg_parse.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/arg_parse.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/arg_parse.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/arg_parse.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o.requires:
 
@@ -371,16 +395,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/arg_parse.cpp.o.provid
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.o: DENSE/source/io/csvr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvr.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvr.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvr.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvr.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvr.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.o.requires:
 
@@ -395,16 +419,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr.cpp.o.provides.bu
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o: DENSE/source/io/csvr_sim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvr_sim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvr_sim.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvr_sim.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvr_sim.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvr_sim.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvr_sim.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o.requires:
 
@@ -419,16 +443,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvr_sim.cpp.o.provide
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.o: DENSE/source/io/csvw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvw.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvw.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvw.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/csvw.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/csvw.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.o.requires:
 
@@ -443,16 +467,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/csvw.cpp.o.provides.bu
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o: DENSE/source/io/ezxml/ezxml.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o   -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o   -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.c
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.c > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.c > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.c -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/io/ezxml/ezxml.c -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o.requires:
 
@@ -467,16 +491,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/io/ezxml/ezxml.c.o.provid
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.o: DENSE/source/search/sres.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/sres.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/sres.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/sres.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/sres.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/sres.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/sres.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.o.requires:
 
@@ -491,16 +515,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/sres.cpp.o.provide
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o: DENSE/source/search/libsres/ESES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESES.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESES.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESES.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESES.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESES.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o.requires:
 
@@ -515,16 +539,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESES.cpp.o
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o: DENSE/source/search/libsres/ESSRSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESSRSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESSRSort.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESSRSort.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESSRSort.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESSRSort.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/ESSRSort.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o.requires:
 
@@ -539,16 +563,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.c
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o: DENSE/source/search/libsres/sharefunc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/sharefunc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/sharefunc.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/sharefunc.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/sharefunc.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/search/libsres/sharefunc.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/search/libsres/sharefunc.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o.requires:
 
@@ -563,16 +587,16 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o: DENSE/source/sim/stoch/rejection_based_simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/rejection_based_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o.requires:
 
@@ -585,42 +609,42 @@ CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o.provides.build: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
 
 
-CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
-CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o: DENSE/source/sim/stoch/sorting_direct_simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o: DENSE/source/sim/stoch/log_direct_method.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/log_direct_method.cpp
 
-CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.i
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/log_direct_method.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.i
 
-CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/sorting_direct_simulation.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.s
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/sim/stoch/log_direct_method.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.s
 
-CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires:
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o.requires:
 
-.PHONY : CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
+.PHONY : CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o.requires
 
-CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
-	$(MAKE) -f CMakeFiles/oscillating_experiment_lib.dir/build.make CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides.build
-.PHONY : CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o.provides: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o.requires
+	$(MAKE) -f CMakeFiles/oscillating_experiment_lib.dir/build.make CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o.provides.build
+.PHONY : CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o.provides
 
-CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.provides.build: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o.provides.build: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o
 
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: CMakeFiles/oscillating_experiment_lib.dir/flags.make
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o: DENSE/source/rejection_based_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o -c /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o -c /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp > CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.i
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/taylorjh/Documents/DENSE_Research_Benchmarks/DENSE/source/rejection_based_main.cpp -o CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.s
 
 CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o.requires:
 
@@ -640,6 +664,7 @@ oscillating_experiment_lib_OBJECTS = \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o" \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o" \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o" \
+"CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o" \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o" \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o" \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o" \
@@ -657,7 +682,7 @@ oscillating_experiment_lib_OBJECTS = \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o" \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o" \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o" \
-"CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o" \
+"CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o" \
 "CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o"
 
 # External object files for target oscillating_experiment_lib
@@ -668,6 +693,7 @@ liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o
+liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o
@@ -685,11 +711,11 @@ liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o
-liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o
+liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/build.make
 liboscillating_experiment_lib.a: CMakeFiles/oscillating_experiment_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library liboscillating_experiment_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library liboscillating_experiment_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/oscillating_experiment_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oscillating_experiment_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -703,6 +729,7 @@ CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_exper
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/determ.cpp.o.requires
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/determ/baby_cl.cpp.o.requires
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/fast_gillespie_direct_simulation.cpp.o.requires
+CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/next_reaction_simulation.cpp.o.requires
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/anderson_next_reaction_simulation.cpp.o.requires
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/Gillespie_Direct_Simulation.cpp.o.requires
@@ -720,7 +747,7 @@ CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_exper
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/ESSRSort.cpp.o.requires
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/search/libsres/sharefunc.cpp.o.requires
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/rejection_based_simulation.cpp.o.requires
-CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/sorting_direct_simulation.cpp.o.requires
+CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/sim/stoch/log_direct_method.cpp.o.requires
 CMakeFiles/oscillating_experiment_lib.dir/requires: CMakeFiles/oscillating_experiment_lib.dir/DENSE/source/rejection_based_main.cpp.o.requires
 
 .PHONY : CMakeFiles/oscillating_experiment_lib.dir/requires
@@ -730,6 +757,6 @@ CMakeFiles/oscillating_experiment_lib.dir/clean:
 .PHONY : CMakeFiles/oscillating_experiment_lib.dir/clean
 
 CMakeFiles/oscillating_experiment_lib.dir/depend:
-	cd /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/CMakeFiles/oscillating_experiment_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/taylorjh/Documents/DENSE_Research_Benchmarks && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/taylorjh/Documents/DENSE_Research_Benchmarks /home/taylorjh/Documents/DENSE_Research_Benchmarks /home/taylorjh/Documents/DENSE_Research_Benchmarks /home/taylorjh/Documents/DENSE_Research_Benchmarks /home/taylorjh/Documents/DENSE_Research_Benchmarks/CMakeFiles/oscillating_experiment_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/oscillating_experiment_lib.dir/depend
 

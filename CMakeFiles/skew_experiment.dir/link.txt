@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/skew_experiment.dir/Skew_Experiment/main.cpp.o  -o skew_experiment libskew_experiment_lib.a 

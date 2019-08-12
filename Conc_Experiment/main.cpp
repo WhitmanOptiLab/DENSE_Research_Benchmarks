@@ -7,11 +7,13 @@
 #include "sim/stoch/rejection_based_simulation.hpp"
 #include "sim/stoch/Gillespie_Direct_Simulation.hpp"
 #include "sim/stoch/anderson_next_reaction_simulation.hpp"
+#include "sim/stoch/log_direct_method.hpp"
 #include "model_impl.hpp"
 #include "Sim_Builder.hpp"
 #include "run_simulation.hpp"
 #include "arg_parse.hpp"
 #include "../experiments_utility.hpp"
+
 
 using style::Color;
 
@@ -85,9 +87,14 @@ int main(int argc, char* argv[]){
   
   std::cout << "Starting the Sorting Direct Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Sorting_Direct_Simulation>(ac, av, &args, "Sorting_Direct_Conc"));
-  std::cout << style::apply(Color::yellow) << "Finished the Sorting Direct Simulation\n\n" << style::reset();
+  std::cout << style::apply(Color::yellow) << "Finished the Sorting Direct Simulation\n\n" << \
   perf_sims += "Sorting Direct,";
-
+  
+  std::cout << "Starting the Log Direct Method\n" << style::reset();
+  perf.push_back(simulate_experiment<Log_Direct_Simulation>(ac, av, &args, "Log_Direct_Conc"));
+  std::cout << style::apply(Color::yellow) << "Finished the Log Direct Simulation\n\n" << style::reset();
+  perf_sims += "Log Direct,";
+  
   performance_out("Conc", perf, perf_sims);
 }
 
