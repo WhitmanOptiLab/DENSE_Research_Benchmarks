@@ -31,7 +31,17 @@ void simulate_experiment(int ac, char** av, Static_Args* args, std::string type)
   for(auto& entry : names_and_analysis){
     entry.first = type + ".csv";
   }
-  run_simulation<Simulation>(args->simulation_duration, args->analysis_interval, std::move(sim.get_simulations(args->param_sets)), std::move(names_and_analysis));
+  std::vector<std::vector<Real>> perf = run_simulation<Simulation>(args->simulation_duration, args->analysis_interval, std::move(sim.get_simulations(args->param_sets)), std::move(names_and_analysis));
+  
+  
+ csvw csv_out(type + "_performance.csv");
+  for (int i = 0; (unsigned)i < perf.size(); ++i){
+    for(int j = 0; (unsigned)j < perf[i].size(); ++j){
+      csv_out.add_data(perf[i][j]);
+      csv_out << '\n';
+    }
+    csv_out << '\n';
+  }
 }
 
 #endif

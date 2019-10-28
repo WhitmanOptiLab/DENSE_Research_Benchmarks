@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/Scale_Experiment -I/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/DENSE/source 
+CXX_INCLUDES = -I/home/taylorjh/DENSE_Research_Benchmarks/Scale_Experiment -I/home/taylorjh/DENSE_Research_Benchmarks/DENSE1/source 
 

@@ -10,7 +10,7 @@ RelWithDebInfo MinSizeRel."
       FORCE)
 endif(NOT CMAKE_BUILD_TYPE)
 
-set(DENSE_PATH "${CMAKE_SOURCE_DIR}/DENSE" CACHE FILEPATH "Path to the DENSE project")
+set(DENSE_PATH "${CMAKE_SOURCE_DIR}/DENSE1" CACHE FILEPATH "Path to the DENSE project")
 
 if (NOT EXISTS ${DENSE_PATH}/CMakeLists.txt)
   message( FATAL_ERROR "Cannot find DENSE directory: make sure the git

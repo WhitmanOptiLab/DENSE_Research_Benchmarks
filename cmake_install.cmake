@@ -1,4 +1,4 @@
-# Install script for directory: /home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks
+# Install script for directory: /home/taylorjh/DENSE_Research_Benchmarks
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mcclelnr/BENCHMARK_DENSE/DENSE_Research_Benchmarks/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/taylorjh/DENSE_Research_Benchmarks/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
