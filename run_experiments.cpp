@@ -68,8 +68,8 @@ int main(){
   std::string graph = "python3 graphmaker.py \"performance/Exponential_performance.csv\" \"performance/Conc_performance.csv\" \"performance/Density_performance.csv\" \"performance/Oscillating_performance.csv\" \"performance/Scale_performance.csv\" \"performance/Overhead_performance.csv\" \"Data\" ";
   system(graph.c_str());
   
-//   graph = "python3 graphmaker.py \"performance/Density_performance.csv\" \"Density\"";
-//   system(graph.c_str());
+   //graph = "python3 graphmaker.py \"perfcmaormance/Density_performance.csv\" \"Density\"";
+  //system(graph.c_str());
   
 //   graph = "python3 graphmaker.py \"performance/Exponential_performance.csv\" \"Exponential\"";
 //   system(graph.c_str());
@@ -81,7 +81,7 @@ int main(){
 //   system(graph.c_str());
   
 //   graph = "python3 graphmaker.py \"performance/Scale_performance.csv\" \"Scale\"";
-  system(graph.c_str());
+ // system(graph.c_str());
 
 
   return num_passed;

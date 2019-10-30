@@ -75,10 +75,10 @@ int main(int argc, char* argv[]){
   std::cout << style::apply(Color::yellow) << "Finished the Rejection Based Simulation\n\n";
   perf_sims += "Rejection,";
   
-  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
-  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Conc"));
-  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
-  perf_sims += "Anderson Next Reaction,";
+//  std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
+//  perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Conc"));
+//  std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
+//  perf_sims += "Anderson Next Reaction,";
   
   std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Next_Reaction_Conc"));
@@ -87,7 +87,7 @@ int main(int argc, char* argv[]){
   
   std::cout << "Starting the Sorting Direct Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Sorting_Direct_Simulation>(ac, av, &args, "Sorting_Direct_Conc"));
-  std::cout << style::apply(Color::yellow) << "Finished the Sorting Direct Simulation\n\n" << \
+  std::cout << style::apply(Color::yellow) << "Finished the Sorting Direct Simulation\n\n";
   perf_sims += "Sorting Direct,";
   
   std::cout << "Starting the Log Direct Method\n" << style::reset();

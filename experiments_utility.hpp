@@ -45,18 +45,20 @@ void performance_out(std::string type, std::vector<std::vector<Real>> perf, std:
   performance_out << perf_sims + "\n";
   
   //Obnoxiously primitive fix for seg fault(should be made better eventually)
-  for(int i = 0; (unsigned)i < perf.size(); i++){
-    std::cout << perf[i].size() <<'\n';
-  }
+//  for(int i = 0; (unsigned)i < perf.size(); i++){
+//    std::cout << perf[i].size() <<'\n';
+//  }
   
-  for(int i = 0; (unsigned)i < perf.size(); i++){
-      performance_out << perf[i].at(0);
+  for(int i = 0; i < perf.size(); i++){
+    for(int j= 0; j < perf[i].size(); j++){
+      performance_out << perf[i][j];
       if(i + 1 == perf.size()){
       } else {
         performance_out << ",";
       }
     }
   performance_out << "\n";
+}
 }
 
 #endif

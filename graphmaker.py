@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys
 import csv
+from decimal import Decimal
 
 def autolabel(rects, a):
   for rect in rects:
@@ -33,11 +34,9 @@ def main():
   width = 2
   
   sim_data_nums  = []
-  for i in sim_data:
-    temp = []
-    for j in i:
-      temp.append(float(j))
-    sim_data_nums.append(temp)
+  for i in sim_data[0]:
+    x = float(i)
+    sim_data_nums.append(x)
   
   
   fig, ax = plt.subplots()
@@ -49,6 +48,7 @@ def main():
   for i in range(len(sim_data_nums[0])):
     temp = []
     for j in range(len(sim_data_nums)):
+      
       temp.append(sim_data_nums[j][i])
     data.append(temp)
   count = 1
