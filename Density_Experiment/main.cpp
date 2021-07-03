@@ -6,7 +6,6 @@
 #include "sim/stoch/next_reaction_simulation.hpp"
 #include "sim/stoch/rejection_based_simulation.hpp"
 #include "sim/stoch/Gillespie_Direct_Simulation.hpp"
-#include "sim/stoch/anderson_next_reaction_simulation.hpp"
 #include "sim/stoch/log_direct_method.hpp"
 #include "model_impl.hpp"
 #include "Sim_Builder.hpp"

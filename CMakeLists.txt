@@ -26,7 +26,7 @@ add_subdirectory(${DENSE_PATH} DENSE EXCLUDE_FROM_ALL)
 
 #declare the custom functions to build the experiments using DENSE
 function(MAKE_EXPERIMENTS localname simdir)
-  SIMULATION(${localname} ${simdir} ${simdir}/main.cpp)
+  SIMULATION(${localname} ${localname} ${simdir} ${simdir}/main.cpp)
 endfunction(MAKE_EXPERIMENTS localname simdir)
 
 MAKE_EXPERIMENTS(scale_experiment ${CMAKE_SOURCE_DIR}/Scale_Experiment)

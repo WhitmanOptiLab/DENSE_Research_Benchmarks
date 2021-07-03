@@ -6,7 +6,6 @@
 #include "sim/stoch/next_reaction_simulation.hpp"
 #include "sim/stoch/rejection_based_simulation.hpp"
 #include "sim/stoch/Gillespie_Direct_Simulation.hpp"
-#include "sim/stoch/anderson_next_reaction_simulation.hpp"
 #include "sim/stoch/log_direct_method.hpp"
 #include "model_impl.hpp"
 #include "Sim_Builder.hpp"
@@ -28,6 +27,9 @@ using style::Color;
 
 using dense::csvw_sim;
 using dense::Fast_Gillespie_Direct_Simulation;
+using dense::Stochastic_Simulation;
+using dense::Log_Direct_Simulation;
+using dense::Rejection_Based_Simulation;
 using dense::Sim_Builder;
 using dense::parse_static_args;
 using dense::parse_analysis_entries;
@@ -63,10 +65,12 @@ int main(int argc, char* argv[]){
   std::cout << style::apply(Color::yellow) << "Finished the Rejection Based Simulation\n\n";
   perf_sims += "Rejection,";
   
+#if 0
   std::cout << "Starting the Anderson Next Reaction Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Anderson_Next_Reaction_Simulation>(ac, av, &args, "Anderson_Oscillating"));
   std::cout << style::apply(Color::yellow) << "Finished the Anderson Next Reaction Simulation\n\n";
   perf_sims += "Anderson Next Reaction,";
+#endif
 // 
   std::cout << "Starting the Next Reaction Simulation\n" << style::reset();
   perf.push_back(simulate_experiment<Next_Reaction_Simulation>(ac, av, &args, "Next_Reaction_Oscillating"));
